@@ -1,0 +1,41 @@
+            <aside id="leftbar" class="col-md-4">
+                <div class="aside">
+                    <h5>Languages</h5>
+                    <ul>
+                        {{ if eq .Site.Params.LanguageCode "it" }}
+                            <li><b>Italiano</b></li>
+                            {{ if .Params.en }}
+                                <li><a href="http://fabioalocati.net/{{ .Params.en }}">Inglese</a></li>
+                            {{ end }}
+                        {{ end }}
+                        {{ if eq .Site.Params.LanguageCode "en" }}
+                            {{ if .Params.it }}
+                                <li><a href="http://fabioalocati.it/{{ .Params.it }}">Italian</a></li>
+                            {{ end }}
+                            <li><b>English</b></li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="aside">
+                    <h5>Categories</h5>
+                    <ul>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+                        {{ end }}
+
+
+                    {{ $data := .Data }}
+{{ range $key, $value := .Data.Taxonomy.Alphabetical }}
+<li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
+{{ end }}
+                    </ul>
+                </div>
+                <div class="aside">
+                    <h5>Tags</h5>
+                    <ul id="all-tags">
+                        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </aside>

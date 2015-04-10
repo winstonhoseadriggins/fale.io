@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+<div id="breadcrumbs">
+    You are here:
+    <span xmlns:v="http://rdf.data-vocabulary.org/#">
+        <span typeof="v:Breadcrumb"> <a href="http://www.fabiolocati.net" rel="v:url" property="v:title">Site</a> </span>
+        &raquo; <span typeof="v:Breadcrumb"><a href="http://fabiolocati.net/blog/" rel="v:url" property="v:title">Blog</a></span>
+        &raquo; <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">{{ .Title }}</span></span>
+    </span>
+</div>
+<div id="content-primary" class="col-md-8">
+    <article>
+        {{ if .Params.image }}
+            <a href="{{ .Permalink }}"><img src="{{ .Site.BaseUrl }}/img/posts/{{ .Params.image }}" class="t-img" alt="" /></a>
+        {{ end }}
+        <div class="txt">
+            <h2>{{ .Title }}</h2>
+            <p>
+                {{ .Content }}
+            </p>
+        </div>
+        <div class="date">
+            <time pubdate datetime="{{ .Date.Format "02-01-2006" }}">
+                <span class="day">{{ .Date.Format "02/01" }}</span>
+                <span class="year">{{ .Date.Format "2006" }}</span>
+            </time>
+        </div>
+        <footer>
+            <p>Categories:
+                {{ if .Params.categories }}
+                    {{ range $i, $e :=.Params.categories }}
+                        {{if $i}} , {{end}}
+                        <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                {{ else }}
+                    Uncategoriezed
+                {{ end }}
+            </p>
+            {{ if .Params.tags }}
+                <p>Tags:
+                    {{ range $i, $e :=.Params.tags }}
+                        {{if $i}} , {{end}}
+                        <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </p>
+            {{ end }}
+        </footer>
+    </article>
+    {{ partial "disqus.html" . }}
+</div>
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}
+

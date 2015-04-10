@@ -1,0 +1,13 @@
+contentdir: "content-en"
+publishdir: "public/en"
+baseURL: "http://fabioalocati.net"
+languageCode: "en"
+title: "Fabio Alessandro Locati"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: "Spinning the cogs in the widgets"
+  AuthorName: "Fabio Alessandro Locati"
+  GitHubUser: "fale"
+  SidebarRecentLimit: 5
+  LanguageCode: "en"
