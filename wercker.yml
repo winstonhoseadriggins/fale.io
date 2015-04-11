@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: 0.13
-        flags: --config=config-it.yml --buildDrafts=true
+        flags: --config=config-it.yaml --buildDrafts=true
     - arjen/hugo-build:
         version: 0.13
-        flags: --config=config-en.yml --buildDrafts=true
+        flags: --config=config-en.yaml --buildDrafts=true
