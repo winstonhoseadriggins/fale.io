@@ -15,6 +15,6 @@ The only downside I saw on this book is that often the examples are related to h
 
 I think that this book is unique thanks to it's approach and a very good reading to anyone that wants to understand deeply the Big Data.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9780124045767.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9780124045767.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

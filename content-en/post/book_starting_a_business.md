@@ -21,6 +21,6 @@ The book is written with no specific sector in mind. This book can be read and f
 
 I think the book is full of good suggestions, but a huge part is simple common sense. If you have no idea about where to start or if you do not know any entrepreneur, this is the right book for you.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0790145349989.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0790145349989.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

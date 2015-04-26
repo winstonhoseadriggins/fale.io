@@ -21,6 +21,6 @@ I've read online that this book is filled with grammar error... well, I'm not a 
 
 I would suggest this book to anyone wants to improve their "logging skills" and to anyone has to deal with logs in their life.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9781597496353.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9781597496353.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

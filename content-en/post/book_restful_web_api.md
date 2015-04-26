@@ -17,6 +17,6 @@ One of the good things of this book is the fact that it does not require any spe
 
 I think the book is a very good resource to learn the basics of RESTful API. I'm not sure that a person that already knows a lot about RESTful API would have a good ROI reading this book.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0636920028468.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0636920028468.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

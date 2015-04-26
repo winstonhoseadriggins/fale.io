@@ -13,6 +13,6 @@ The only thing that this book is really missing, imho, is SSL/TLS. These two acr
 
 I would suggest this book to anyone is interested in understanding how to use Wireshark and to anyone needs to use Wireshark and does not want to use too much time to learn it.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9780124104136.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9780124104136.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

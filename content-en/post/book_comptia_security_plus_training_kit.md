@@ -5,7 +5,7 @@ tags: [ "Book", "CompTIA", "ComTIA Security+", "David Seidl", "Mike Chapple", "J
 categories: [ "Security", "Certification", "Review" ]
 title: "CompTIA Security+ Training Kit (Exam SY0-301) by David Seidl, Mike Chapple, James Michael Stewart (Microsoft Press)"
 ---
-<img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735664265/cat.gif" width="180" height="220" />After few months after the review of <a href="http://fabiolocati.com/2013/01/comptia-security-rapid-review-exam-sy0-301-by-michael-gregg-microsoft-press/">CompTIA Security+ Rapid Review</a>, I'm now here to speak about it's bigger brother: the Training kit.
+<img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735664265/cat.gif" width="180" height="220" />After few months after the review of [CompTIA Security+ Rapid Review](http://fabiolocati.com/2013/01/comptia-security-rapid-review-exam-sy0-301-by-michael-gregg-microsoft-press/), I'm now here to speak about it's bigger brother: the Training kit.
 
 With its 569 pages, this book is more than twice the length of the Rapid Review one. Even if someone can think that they did a better summary in the Rapid Review one, I have to say that this is not the case for these two books. While the Rapid Review allows you to pass the exam if you already know the certification contents and you only need to evaluate your level and to refresh some contents, the Training Kit will teach you the certification contents.
 
@@ -15,6 +15,6 @@ I think the biggest downside of this book is the companion disk. It was not usab
 
 I would suggest this book to anyone is interested in the CompTIA Security+ exam and in IT Security in general.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0790145339676.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0790145339676.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

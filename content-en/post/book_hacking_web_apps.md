@@ -11,6 +11,6 @@ Mike Shema speaks about a lot of different kind of attacks in his book in a real
 
 Somewhere in the introduction, the author declares that the book is good for different type of people, including executive level management. Even if I agree with the author that this book has a wide audience, I don't agree about the executive level management being in the audience of the book because I think it would be too specific and technical for a person with that kind of focus. I would mainly suggest this book to any developer that has not yet read it and to any project manager that has to deal with products that may expose security glitch.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9781597499514.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9781597499514.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

@@ -18,6 +18,6 @@ Even if the book is written and structured for the CompTIA A+ exam, I think that
 
 I would suggest this book to a friend since the value of the book is really high and the price is not too high. Surely if he is a non-Windows user I would tell him not to count on the CD contents.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0790145335333.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0790145335333.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

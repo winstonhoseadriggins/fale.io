@@ -15,6 +15,6 @@ Another thing that I really liked about this book is the fact that David Lang, t
 
 I liked this book, and I would suggest it to anyone would like to learn a lot about of the Maker culture. I would not suggest this book to the people that hate reading since is a pretty solid-text book, while you can find other books with less text in them (and also less contents, but the trade-off could be good enough for you).
 
-You can find the book at <a href="http://shop.oreilly.com/product/0636920028284.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0636920028284.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

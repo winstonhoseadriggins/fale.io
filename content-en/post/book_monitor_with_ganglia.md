@@ -17,6 +17,6 @@ The two chapters I liked the most are the Chapter 7 (Ganglia and Nagios) and the
 
 I would definitely suggest this book to anyone is facing an installation or a configuration of Ganglia or to anyone has to monitor multiple systems in an optimized way.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0636920025573.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0636920025573.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

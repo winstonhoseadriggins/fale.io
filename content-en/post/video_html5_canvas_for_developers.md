@@ -22,6 +22,6 @@ The price of 49.99$ is reasonable in my opinion for two reasons:
 
 As you can imagine, I would suggest this book. Specifically I would suggest it to anyone has an HTML and JS knowledge and wants to keep up with the HTML5 innovations.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0636920030751.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0636920030751.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

@@ -17,6 +17,6 @@ This is the best book I've read in 2013 so far and I'm sure it will be one of th
 
 I strongly suggest this book to whoever is planning to project or deploy a video-game or a real-game and to whoever is interested in the Theory of Games.
 
-You can find this book at the <a href="http://shop.oreilly.com/product/0636920026624.do">O'Reilly website</a>.
+You can find this book at the [O'Reilly website](http://shop.oreilly.com/product/0636920026624.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

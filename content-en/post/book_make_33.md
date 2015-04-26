@@ -17,6 +17,6 @@ I also really enjoyed the "Made on Earth" column and more specifically the "Sing
 
 I would definitely suggest this Make issue to my friends :).
 
-You can find this Make issue at the <a href="http://shop.oreilly.com/product/0636920025221.do">O'Reilly on-line store</a>
+You can find this Make issue at the [O'Reilly on-line store](http://shop.oreilly.com/product/0636920025221.do)
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

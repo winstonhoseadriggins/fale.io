@@ -13,6 +13,6 @@ For each atomic argument, the author does propose 1 to 3 True-or-False questions
 
 At the end of the day, I would suggest this book to anyone interested in the CompTIA Security+ exam. I think the book will not fit the reader needs if the reader is not interested in the exam itself. I would also suggest to anyone willing to do the exam to relay on a different book to study and use this one only for reviewing the concepts before the exam.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0790145349989.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0790145349989.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

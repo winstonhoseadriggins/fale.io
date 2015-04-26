@@ -21,6 +21,6 @@ A thing that I appreciated a lot, is that the authors really make it clear to al
 
 I would suggest this book to anyone interested in the Penetration Testing and in the Wireless technology. In this book you'll find a lot of really useful tools and rules that are applicable in any kind of penetration testing.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9781597497312.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9781597497312.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

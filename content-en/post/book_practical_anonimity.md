@@ -29,6 +29,6 @@ Why you should NOT buy this book:
 
 Given these ups and downs, I would not suggest this book unless you have to learn stuff about Internet Anonymity quickly and you don't have a strong IT knowledge.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9780124104044.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9780124104044.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

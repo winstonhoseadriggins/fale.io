@@ -13,6 +13,6 @@ Speaking of the authors, it's really interesting to spend a few words on their b
 
 I would strongly suggest this great book to anyone that is interested in understanding deeply the Steampunk culture. This reading can be perfect for both the person who wants to discover the Steampunk world for the first time, and to who has already a knowledge of this world and wants to improve it and have some new points to ponder.
 
-You can find this book at the <a href="http://shop.oreilly.com/product/0636920026631.do">O'Reilly website</a>.
+You can find this book at the [O'Reilly website](http://shop.oreilly.com/product/0636920026631.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

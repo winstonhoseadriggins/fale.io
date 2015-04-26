@@ -13,6 +13,6 @@ An aspect that really shaped this book as we can see it now, is the development 
 
 Overall, I think the book is really good for both the people that are new to the security field and to the people with years in the field. I would suggest the book to both category.
 
-You can find the book at <a href="http://shop.oreilly.com/product/9781593272883.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/9781593272883.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program

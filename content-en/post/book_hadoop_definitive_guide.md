@@ -17,6 +17,6 @@ At first I was perplexed by the author choice of constantly use the same example
 
 The only down-side I've seen in this book is that, even if the last edition (3rd at the time I'm writing) has been published in May 2012, a lot of statistical data are outdated reporting data and sources of 2006-2008. I would suggest this book to anyone is interested in Hadoop and in the Big Data world.
 
-You can find the book at <a href="http://shop.oreilly.com/product/0636920021773.do">O'Reilly website</a>.
+You can find the book at [O'Reilly website](http://shop.oreilly.com/product/0636920021773.do).
 
 **Disclaimer:** I received a free electronic copy of this book as part of the O'Reilly Blogger Program
