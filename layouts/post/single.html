@@ -2,15 +2,22 @@
 <div id="breadcrumbs">
     You are here:
     <span xmlns:v="http://rdf.data-vocabulary.org/#">
-        <span typeof="v:Breadcrumb"> <a href="http://www.fabiolocati.net" rel="v:url" property="v:title">Site</a> </span>
-        &raquo; <span typeof="v:Breadcrumb"><a href="http://fabiolocati.net/blog/" rel="v:url" property="v:title">Blog</a></span>
+        <span typeof="v:Breadcrumb"> <a href="/" rel="v:url" property="v:title">Site</a> </span>
+        {{ if .Params.categories }}
+            {{ range $i, $e :=.Params.categories }}
+                &raquo; <span typeof="v:Breadcrumb"><a href="/categories/{{ . | urlize }}" rel="v:url" property="v:title">{{ . }}</a></span>
+            {{ end }}
+        {{ else }}
+            &raquo; <span typeof="v:Breadcrumb"><span property="v:title">Uncategorized</span></span>
+            Uncategoriezed
+        {{ end }}
         &raquo; <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">{{ .Title }}</span></span>
     </span>
 </div>
 <div id="content-primary" class="col-md-8">
     <article>
         {{ if .Params.image }}
-            <a href="{{ .Permalink }}"><img src="{{ .Site.BaseUrl }}/img/posts/{{ .Params.image }}" class="t-img" alt="" /></a>
+            <a href="{{ .Permalink }}"><img src="/img/posts/{{ .Params.image }}" class="t-img" alt="" /></a>
         {{ end }}
         <div class="txt">
             <h2>{{ .Title }}</h2>
