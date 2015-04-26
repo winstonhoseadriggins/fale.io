@@ -2,6 +2,7 @@ contentdir: "content-en"
 publishdir: "public/en"
 baseURL: "http://fabiolocati.net"
 languageCode: "en"
+locale: "en_US"
 title: "Fabio Alessandro Locati"
 permalinks:
   post: /:year/:month/:title/
