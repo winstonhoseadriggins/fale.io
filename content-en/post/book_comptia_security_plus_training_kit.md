@@ -1,7 +1,7 @@
 ---
 date: "2013-04-30T09:00:15+02:00"
 description: "Review of CompTIA Security+ Training Kit (Exam SY0-301) by David Seidl, Mike Chapple, James Michael Stewart (Microsoft Press)"
-tags: [ "Book", "CompTIA", "ComTIA Security+", "David Seidl", "Mike Chapple", "James Michael Stewart", "Microsoft Press" ]
+tags: [ "Book", "CompTIA", "ComTIA Security+", "David Seidl", "Mike Chapple", "James Michael Stewart", "Microsoft Press", "SY0-301" ]
 categories: [ "Security", "Certification", "Review" ]
 title: "CompTIA Security+ Training Kit (Exam SY0-301) by David Seidl, Mike Chapple, James Michael Stewart (Microsoft Press)"
 ---
