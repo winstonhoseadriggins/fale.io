@@ -20,15 +20,15 @@ deploy:
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_IT
+            bucket_url: s3://fabiolocati.it
             source_dir: public/it/
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_EN
+            bucket_url: s3://fabiolocati.net
             source_dir: public/en/
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_STATIC
+            bucket_url: s3://static.fabiolocati.net
             source_dir: public/static/
