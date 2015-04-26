@@ -21,7 +21,10 @@ build:
                 rm -rf public/it/fonts
         - script:
             name: compress with GZIP all objects
-            code: find public -type f -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+            code: |
+                find public -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+                find public -iname '*.css' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+                find public -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 
 deploy:
     steps:
@@ -30,7 +33,7 @@ deploy:
             key_secret: $AWS_SECRET_ACCESS_KEY
             bucket_url: s3://fabiolocati.it
             source_dir: public/it/
-            opts: "--acl-public --add-header='Content-Encoding: gzip'"
+            opts: --acl-public --encoding=gzip --add-encoding-exts=css,js,html
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
