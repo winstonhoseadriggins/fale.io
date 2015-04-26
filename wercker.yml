@@ -1,34 +1,34 @@
 box: wercker/default
 build:
-    steps:
-        - arjen/hugo-build:
-            version: 0.13
-            config: config-it.yaml
-        - arjen/hugo-build:
-            version: 0.13
-            config: config-en.yaml
-        - script:
-            name: create the static folder and populate it
-            code: |
-                mkdir public/static
-                mv public/en/css public/static
-                rm -rf public/it/css
-                mv public/en/img public/static
-                rm -rf public/it/img
+  steps:
+    - arjen/hugo-build:
+      version: 0.13
+      config: config-it.yaml
+    - arjen/hugo-build:
+      version: 0.13
+      config: config-en.yaml
+    - script:
+      name: create the static folder and populate it
+      code: |
+        mkdir public/static
+        mv public/en/css public/static
+        rm -rf public/it/css
+        mv public/en/img public/static
+        rm -rf public/it/img
 deploy:
-    steps:
-        - s3sync:
-            key_id: $AWS_ACCESS_KEY_ID
-            key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_IT
-            source_dir: public/it/
-        - s3sync:
-            key_id: $AWS_ACCESS_KEY_ID
-            key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_EN
-            source_dir: public/en/
-        - s3sync:
-            key_id: $AWS_ACCESS_KEY_ID
-            key_secret: $AWS_SECRET_ACCESS_KEY
-            bucket_url: $AWS_BUCKET_URL_STATIC
-            source_dir: public/static/
+  steps:
+    - s3sync:
+      key_id: $AWS_ACCESS_KEY_ID
+      key_secret: $AWS_SECRET_ACCESS_KEY
+      bucket_url: $AWS_BUCKET_URL_IT
+      source_dir: public/it/
+    - s3sync:
+      key_id: $AWS_ACCESS_KEY_ID
+      key_secret: $AWS_SECRET_ACCESS_KEY
+      bucket_url: $AWS_BUCKET_URL_EN
+      source_dir: public/en/
+    - s3sync:
+      key_id: $AWS_ACCESS_KEY_ID
+      key_secret: $AWS_SECRET_ACCESS_KEY
+      bucket_url: $AWS_BUCKET_URL_STATIC
+      source_dir: public/static/
