@@ -5,12 +5,12 @@
                         {{ if eq .Site.Params.LanguageCode "it" }}
                             <li><b>Italiano</b></li>
                             {{ if .Params.en }}
-                                <li><a href="http://fabioalocati.net/{{ .Params.en }}">Inglese</a></li>
+                                <li><a href="http://fabiolocati.net/{{ .Params.en }}">Inglese</a></li>
                             {{ end }}
                         {{ end }}
                         {{ if eq .Site.Params.LanguageCode "en" }}
                             {{ if .Params.it }}
-                                <li><a href="http://fabioalocati.it/{{ .Params.it }}">Italian</a></li>
+                                <li><a href="http://fabiolocati.it/{{ .Params.it }}">Italian</a></li>
                             {{ end }}
                             <li><b>English</b></li>
                         {{ end }}
