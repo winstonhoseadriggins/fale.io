@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('/fonts/FrederickatheGreat-Regular.ttf');
+}
+
 ol,
 ul {
   list-style:none;

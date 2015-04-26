@@ -15,6 +15,10 @@ build:
                 rm -rf public/it/css
                 mv public/en/img public/static
                 rm -rf public/it/img
+                mv public/en/js public/static
+                rm -rf public/it/js
+                mv public/en/fonts public/static
+                rm -rf public/it/fonts
 deploy:
     steps:
         - s3sync:
