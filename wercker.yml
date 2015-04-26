@@ -45,4 +45,4 @@ deploy:
             key_secret: $AWS_SECRET_ACCESS_KEY
             bucket_url: s3://static.fabiolocati.net
             source_dir: public/static/
-            opts: "--acl-public --add-header='Content-Encoding: gzip'"
+            opts: --acl-public --add-header=Content-Encoding:gzip
