@@ -1,5 +1,5 @@
 ---
-date: "2013-02-28T15:30:30+02:00"
+date: "2013-01-03T09:00:00+02:00"
 description: "How to send an e-mail with attachment from the command line"
 tags: [ "Mails", "Attachments", "Bash", "CLI", "Linux", "Shell", "Programming", "UNIX" ]
 title: "How to send an e-mail with attachment from the command line"
