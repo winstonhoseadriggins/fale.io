@@ -33,16 +33,13 @@ deploy:
             key_secret: $AWS_SECRET_ACCESS_KEY
             bucket_url: s3://fabiolocati.it
             source_dir: public/it/
-            opts: --add-header='Content-Encoding: gzip'
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
             bucket_url: s3://fabiolocati.net
             source_dir: public/en/
-            opts: --add-header='Content-Encoding: gzip'
         - s3sync:
             key_id: $AWS_ACCESS_KEY_ID
             key_secret: $AWS_SECRET_ACCESS_KEY
             bucket_url: s3://static.fabiolocati.net
             source_dir: public/static/
-            opts: --add-header='Content-Encoding: gzip'
