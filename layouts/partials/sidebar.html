@@ -32,4 +32,13 @@
                         {{ end }}
                     </ul>
                 </div>
+                <div class="aside">
+                    <h5>Tags</h5>
+                    <ul id="all-tags">
+                        {{ $data := .Data }}
+                        {{ range $key, $value := .Data.Taxonomy.Alphabetical }}
+                            <li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
+                        {{ end }}
+                    </ul>
+                </div>
             </aside>
