@@ -148,6 +148,7 @@ article footer {
   border-top:1px dotted #ddd;
   padding:20px 30px 23px;
   margin:0;
+  text-align: left;
 }
 
 article footer p {
@@ -176,8 +177,8 @@ article .date {
   box-sizing: initial;
 }
 
-article footer {
-  text-align: left;
+article .comments {
+    border-top: 1px dotted #DDDDDD;
 }
 
 @media (min-width:840px) and (max-width: 991px) {

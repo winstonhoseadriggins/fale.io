@@ -51,8 +51,10 @@
                 </p>
             {{ end }}
         </footer>
+        <div class="comments">
+            {{ template "_internal/disqus.html" . }}
+        </div>
     </article>
-    {{ template "_internal/disqus.html" . }}
 </div>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
