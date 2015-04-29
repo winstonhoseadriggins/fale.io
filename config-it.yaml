@@ -12,3 +12,6 @@ params:
   SidebarRecentLimit: 5
   LanguageCode: "it"
   Locale: "it_IT"
+taxonomies:
+  tag: "tags"
+  category: "categories"
