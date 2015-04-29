@@ -19,15 +19,9 @@
                 <div class="aside">
                     <h5>Categories</h5>
                     <ul>
-                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+                        {{ range .Site.Taxonomies.categories }}
+                            <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
                         {{ end }}
-
-
-                    {{ $data := .Data }}
-{{ range $key, $value := .Data.Taxonomy.Alphabetical }}
-<li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
-{{ end }}
                     </ul>
                 </div>
                 <div class="aside">
