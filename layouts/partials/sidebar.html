@@ -19,16 +19,16 @@
                 <div class="aside">
                     <h5>Categories</h5>
                     <ul>
-                        {{ range .Site.Taxonomies.categories }}
-                            <li><a href="/categories/{{ . | urlize }}">{{ . }}</a> ({{ .Count }})</li>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="aside">
                     <h5>Tags</h5>
                     <ul id="all-tags">
-                        {{ range .Site.Taxonomies.tags }}
-                            <li><a href="/tags/{{ . | urlize }}">{{ . }}</a> ({{ .Count }})</li>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
                         {{ end }}
                     </ul>
                 </div>
