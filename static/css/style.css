@@ -179,8 +179,7 @@ article .date {
 
 article  div.comments {
     border-top: 1px dotted #DDDDDD;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 10px 30px 20px 30px;
 }
 
 @media (min-width:840px) and (max-width: 991px) {
