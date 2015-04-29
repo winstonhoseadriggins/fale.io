@@ -35,10 +35,20 @@
                 <div class="aside">
                     <h5>Tags</h5>
                     <ul id="all-tags">
-                        {{ $data := .Data }}
-                        {{ range $key, $value := .Data.Taxonomy.Alphabetical }}
-                            <li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
-                        {{ end }}
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="/{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+        <ul>
+          {{ range $key, $value := $taxonomy }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
                     </ul>
                 </div>
             </aside>
