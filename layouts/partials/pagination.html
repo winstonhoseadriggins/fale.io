@@ -1,9 +1,9 @@
 <nav>
     <ul class="pager">
-        {{ if .Data.Paginator.HasPrev }}
+        {{ if .Paginator.HasPrev }}
             <li class="previous"><a href="/{{ .Data.Paginator.Prev.Url }}"><span aria-hidden="true">&larr;</span> Older</a></li>
         {{ end }}
-        {{ if .Data.Paginator.HasNext }}
+        {{ if .Paginator.HasNext }}
             <li class="next"><a href="/{{ .Data.Paginator.Next.Url }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
         {{ end }}
     </ul>
