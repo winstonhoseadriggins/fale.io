@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
             <div id="content-primary" class="col-md-8">
-                {{ range first 20 (where .Data.Pages.ByDate.Reverse "Section" "post") }}
+                {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Section" "post") }}
+                {{ range $paginator.Pages }}
                     {{ .Render "list" }}
                 {{ end }}
+                {{ template "_internal/pagination.html" . }}
             </div>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
