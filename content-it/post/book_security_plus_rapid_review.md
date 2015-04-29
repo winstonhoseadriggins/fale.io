@@ -1,7 +1,7 @@
 ---
 date: "2013-01-08T09:00:15+02:00"
-description: "Review of CompTIA Security+ Rapid Review (Exam SY0-301) di Michael Gregg (Microsoft Press)"
-tags: [ "Book", "SY0-301", "Sicurezza", "Michael Gregg", "Microsoft Press" ]
+description: "Recensione del libro CompTIA Security+ Rapid Review (Exam SY0-301) di Michael Gregg (Microsoft Press)"
+tags: [ "Libri", "SY0-301", "Sicurezza", "Michael Gregg", "Microsoft Press" ]
 categories: [ "Review" ]
 title: "CompTIA Security+ Rapid Review (Exam SY0-301) di Michael Gregg (Microsoft Press)"
 ---

@@ -1,7 +1,7 @@
 ---
 date: "2013-01-01T09:00:00+02:00"
-description: "Recensione di CompTIA Network+ Training Kit (Exam N10-005) di Craig Zacker (Microsoft Press)"
-tags: [ "Libro", "Certificazioni", "CompTIA", "Craig Zacker", "Microsoft Press", "Networking", "N10-005" ]
+description: "Recensione del libro CompTIA Network+ Training Kit (Exam N10-005) di Craig Zacker (Microsoft Press)"
+tags: [ "Libri", "Certificazioni", "CompTIA", "Craig Zacker", "Microsoft Press", "Networking", "N10-005" ]
 categories: [ "Review" ]
 title: "CompTIA Network+ Training Kit (Exam N10-005) di Craig Zacker (Microsoft Press)"
 ---
