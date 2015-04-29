@@ -3,6 +3,7 @@ publishdir: "public/en"
 baseURL: "http://fabiolocati.net"
 languageCode: "en"
 title: "Fabio Alessandro Locati"
+disqusShortname: "fabiolocati"
 permalinks:
   post: /:year/:month/:title/
 params:
