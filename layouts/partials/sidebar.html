@@ -32,23 +32,4 @@
                         {{ end }}
                     </ul>
                 </div>
-                <div class="aside">
-                    <h5>Tags</h5>
-                    <ul id="all-tags">
-    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-      <li><a href="/{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
-        <ul>
-          {{ range $key, $value := $taxonomy }}
-          <li> {{ $key }} </li>
-                <ul>
-                {{ range $value.Pages }}
-                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-                {{ end }}
-                </ul>
-          {{ end }}
-        </ul>
-      </li>
-    {{ end }}
-                    </ul>
-                </div>
             </aside>
