@@ -39,23 +39,23 @@ table {
 }
 
 body {
-  background:#eee;
-  color:#333;
-  font-size: 16px/24px;
+  background: #EEEEEE;
+  color: #333333;
+  font-size: 140%;
   font-family: "proxima-nova-1","proxima-nova-2","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #container {
   margin: 0 auto;
-  padding:50px 0 0;
+  padding: 50px 0 0;
 }
 
 header {
   margin: 0px 0 50px 0;
-  color:#000;
-  font-size:70px;
+  color: #000000;
+  font-size: 70px;
   font-family: 'Fredericka the Great', cursive;
-  margin:0;
+  margin: 0;
   text-align: center;
   margin: 30px 0;
 }
@@ -68,19 +68,19 @@ header {
 
 header a,
 header a:hover {
-  color:#000;
+  color: #000000;
 }
 
 #main-content {
-  margin:0 0 50px;
+  margin: 0 0 50px;
 }
 
 #content-primary {
-  float:left;
+  float: left;
 }
 
 .aside {
-  float:right !important;
+  float: right !important;
   width: 100%;
   margin: 0 0 30px 0;
 }
@@ -88,29 +88,29 @@ header a:hover {
 footer {
   margin: 0 15px;
   clear: both;
-  color:#888;
-  font-size:15px;
-  border-top:1px solid rgba(0,0,0,.1);
-  padding:15px 0 35px;
+  color: #888888;
+  font-size: 130%;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 15px 0 35px;
   text-align: center;
 }
 
 #top {
-  width:100%;
-  height:20px;
-  background:rgba(0,0,0,.7);
-  position:fixed;
-  top:0;
-  padding:15px 0;
-  z-index:9999;
+  width: 100%;
+  height: 20px;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  top: 0;
+  padding: 15px 0;
+  z-index: 9999;
   -webkit-box-sizing: initial;
   -moz-box-sizing: initial;
   box-sizing: initial;
 }
 
 #top-inner {
-  width:960px;
-  margin:0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #page,
@@ -194,7 +194,7 @@ article footer {
 
 article .date .day,
 article .date .year {
-  font-size:17px;
+  font-size: 145%;
   text-shadow:0 1px 0 rgba(0,0,0,0.15);
 }
 
