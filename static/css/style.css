@@ -41,7 +41,7 @@ table {
 body {
   background: #EEEEEE;
   color: #333333;
-  font-size: 140%;
+  font-size: 16px/24px;
   font-family: "proxima-nova-1","proxima-nova-2","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -89,7 +89,7 @@ footer {
   margin: 0 15px;
   clear: both;
   color: #888888;
-  font-size: 130%;
+  font-size: 15px;
   border-top: 1px solid rgba(0,0,0,.1);
   padding: 15px 0 35px;
   text-align: center;
@@ -197,7 +197,7 @@ article  div.comments {
 
 article .date .day,
 article .date .year {
-  font-size: 145%;
+  font-size: 17px;
   text-shadow:0 1px 0 rgba(0,0,0,0.15);
 }
 
