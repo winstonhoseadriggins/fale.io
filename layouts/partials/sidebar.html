@@ -19,8 +19,8 @@
                 <div class="aside">
                     <h5>Categories</h5>
                     <ul>
-                        {{ range .Site.Taxonomies.categories.Pages }}
-                            <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ $name }}</a></li>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
                         {{ end }}
                     </ul>
                 </div>
