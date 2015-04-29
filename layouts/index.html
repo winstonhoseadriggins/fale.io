@@ -4,7 +4,7 @@
                 {{ range $paginator.Pages }}
                     {{ .Render "list" }}
                 {{ end }}
-                {{ template "_internal/pagination.html" . }}
+                {{ partial "pagination.html" . }}
             </div>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
