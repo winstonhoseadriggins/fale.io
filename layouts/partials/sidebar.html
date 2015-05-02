@@ -1,36 +1,30 @@
             <aside id="leftbar" class="col-md-4">
                 <div class="aside">
-                    <h5>Pages</h5>
+                    <h2>Pages</h2>
                     <a class="list-group-item" href="/">Home</a>
                     <a class="list-group-item" href="/about">About</a>
                 </div>
                 <div class="aside">
-                    <h5>Languages</h5>
-                    <ul class="list-group">
-                        {{ if eq .Site.Params.LanguageCode "it" }}
-                            <li class="list-group-item"><b>Italiano</b></li>
-                            <li class="list-group-item"><a href="http://fabiolocati.net/">Inglese</a></li>
-                        {{ end }}
-                        {{ if eq .Site.Params.LanguageCode "en" }}
-                            <li class="list-group-item"><a href="http://fabiolocati.it/">Italian</a></li>
-                            <li class="list-group-item"><b>English</b></li>
-                        {{ end }}
-                    </ul>
+                    <h2>Languages</h2>
+                    {{ if eq .Site.Params.LanguageCode "it" }}
+                        <a class="list-group-item disabled"><b>Italiano</b></a>
+                        <a class="list-group-item" href="http://fabiolocati.net/">Inglese</a><
+                    {{ end }}
+                    {{ if eq .Site.Params.LanguageCode "en" }}
+                        <a class="list-group-item" href="http://fabiolocati.it/">Italian</a>
+                        <a class="list-group-item disabled"><b>English</b></a>
+                    {{ end }}
                 </div>
                 <div class="aside">
-                    <h5>Categories</h5>
-                    <ul class="list-group">
-                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                            <li class="list-group-item"><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
-                        {{ end }}
-                    </ul>
+                    <h2>Categories</h2>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                        <a class="list-group-item" href="/categories/{{ $name | urlize }}">{{ $name }}</a>
+                    {{ end }}
                 </div>
                 <div class="aside">
-                    <h5>Tags</h5>
-                    <ul class="list-group">
-                        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                            <li class="list-group-item"><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
-                        {{ end }}
-                    </ul>
+                    <h2>Tags</h2>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                        <a class="list-group-item" href="/tags/{{ $name | urlize }}">{{ $name }}</a>
+                    {{ end }}
                 </div>
             </aside>

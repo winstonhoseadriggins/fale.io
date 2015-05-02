@@ -79,12 +79,6 @@ header a:hover {
   float: left;
 }
 
-.aside {
-  float: right !important;
-  width: 100%;
-  margin: 0 0 30px 0;
-}
-
 footer {
   margin: 0 15px;
   clear: both;
@@ -135,8 +129,7 @@ article,
 }
 
 #comments,
-#respond,
-.aside {
+#respond {
   padding:30px;
 }
 
@@ -363,10 +356,6 @@ h6 {
   font-size:18px;
 }
 
-.aside h2 {
-  font-size:16px;
-}
-
 a {
   color:#f96549;
   text-decoration:none;
@@ -378,10 +367,6 @@ a:hover {
 
 a img {
   border:0;
-}
-
-.aside a {
-  color:#777;
 }
 
 h1 a,
@@ -406,10 +391,6 @@ p {
   margin:0 0 1.5em;
 }
 
-.aside p {
-  color:#666;
-}
-
 p.last {
   margin:0;
 }
@@ -424,7 +405,6 @@ li {
   list-style:none;
 }
 
-.aside ul,
 article ul,
 article ol,
 #page ul {
@@ -432,7 +412,6 @@ article ol,
   padding:0 0 0 20px;
 }
 
-.aside li,
 article li,
 #page li {
   list-style:circle;
@@ -591,8 +570,28 @@ code {
 }
 
 
-/* Navbar */
-.navbar {
-    background: rgba(0,0,0,.7);
-    border: 0;
+/* Aside */
+
+
+.aside {
+  float: right !important;
+  width: 100%;
+  margin: 0;
 }
+
+.aside h2 {
+  font-size: 19px;
+  margin-top: 13px;
+  margin-left: 30px;
+}
+
+.aside a {
+  color: #777;
+  border: none;
+  border-top: 1px dotted #DDDDDD;
+}
+
+.aside p {
+  color:#666;
+}
+
