@@ -1,11 +1,8 @@
 {{ partial "header.html" . }}
-<div id="breadcrumbs">
-    You are here:
-    <span xmlns:v="http://rdf.data-vocabulary.org/#">
-        <span typeof="v:Breadcrumb"> <a href="/" rel="v:url" property="v:title">Site</a> </span>
-        &raquo; <span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">{{ .Title }}</span></span>
-    </span>
-</div>
+    <ol class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
+        <li typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title">Home</a></li>
+        <li typeof="v:Breadcrumb" class="active"><span rel="v:child" property="v:title">{{ .Title }}</li>
+    </ol>
 <div id="content-primary" class="col-md-8">
     <article>
         {{ if .Params.image }}
