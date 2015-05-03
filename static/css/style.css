@@ -153,26 +153,26 @@ aside .aside {
 }
 
 aside .aside {
-  float: right !important;
-  width: 100%;
-  margin: 0 0 30px 0;
+    float: right !important;
+    width: 100%;
+    margin: 0 0 30px 0;
 }
 
 aside .aside h2 {
-  font-size: 19px;
-  margin-top: 13px;
-  margin-left: 30px;
+    font-size: 19px;
+    margin-top: 13px;
+    margin-left: 30px;
 }
 
 aside .aside a {
-  color: #777;
-  border: none;
-  border-top: 1px dotted #DDDDDD;
-  padding-left: 30px;
+    color: #777777;
+    border: none;
+    border-top: 1px dotted #DDDDDD;
+    padding-left: 30px;
 }
 
 aside .aside p {
-  color:#666;
+    color: #666666;
 }
 
 /* Footer */
