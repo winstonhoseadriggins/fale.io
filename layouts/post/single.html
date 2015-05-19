@@ -40,6 +40,10 @@
                 </p>
             {{ end }}
         </footer>
+        <div class="social">
+            <h3>Share with:</h3>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i></a>
+        </div>
         <div class="comments">
             {{ template "_internal/disqus.html" . }}
         </div>
