@@ -1,6 +1,6 @@
 contentdir: "content-it"
 publishdir: "public/it"
-baseurl: "http://fabiolocati.it"
+baseurl: "https://fabiolocati.it"
 languageCode: "it"
 title: "Fabio Alessandro Locati"
 disqusShortname: "fabiolocati"

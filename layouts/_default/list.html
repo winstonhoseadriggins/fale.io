@@ -1,7 +1,7 @@
 {{ if eq .Type "post" }}
 	<article>
         {{ if .Params.image }}
-            <a href="{{ .Permalink }}"><img src="{{ .Site.BaseUrl }}img/posts/{{ .Params.image }}" class="t-img" alt="" /></a>
+            <a href="{{ .Permalink }}"><img src="/img/posts/{{ .Params.image }}" class="t-img" alt="" /></a>
         {{ end }}
 		<div class="txt">
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
