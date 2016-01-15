@@ -4,6 +4,7 @@ baseURL: "http://fabiolocati.net"
 languageCode: "en"
 title: "Fabio Alessandro Locati"
 disqusShortname: "fabiolocati"
+theme: fale
 permalinks:
   post: /blog/:year/:month/:day/:title/
 params:
