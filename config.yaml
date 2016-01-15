@@ -1,5 +1,5 @@
-contentdir: "content-en"
-publishdir: "public/en"
+contentdir: "content"
+publishdir: "public"
 baseURL: "http://fabiolocati.net"
 languageCode: "en"
 title: "Fabio Alessandro Locati"
