@@ -4,9 +4,10 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-      <p>{{ with .Site.Copyright }}{{ . }}{{ else }}&copy; {{ $.Site.LastChange.Year }} {{ if isset $.Site.Params "Author" }}{{ $.Site.Params.Author }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</p>
-      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>,</p>
+                    <p>
+                        &copy; 2006~{{ $.Site.LastChange.Year }} Fabio Alessandro Locati<br />
+                        Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>
+                    </p>
                 </div>
             </div>
             <!-- /.row -->
