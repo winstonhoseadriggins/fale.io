@@ -1,8 +1,0 @@
-{{ partial "header.html" . }}
-            <div id="content-primary" class="col-md-8">
-                {{ range first 20 (where .Data.Pages.ByDate.Reverse "Section" "post") }}
-                    {{ .Render "list" }}
-                {{ end }}
-            </div>
-{{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
