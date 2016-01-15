@@ -1,108 +1,51 @@
-    {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 
-    <!-- Page Content -->
+<div class="row">
+    <div class="col-lg-8">
 
-        <div class="row">
-
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
-<!--
-      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
-
-        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
-        <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
-        <meta itemprop="headline" content="{{ .Title }}">
-        <meta itemprop="description" content="{{ .Summary }}">
-        <meta itemprop="url" content="{{ .Permalink }}">
-        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-          <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
-          <meta itemprop="width" content="800">
-          <meta itemprop="height" content="800">
-        </div>
-        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-            <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
-            <meta itemprop="width" content="100">
-            <meta itemprop="height" content="100">
-          </div>
-          <meta itemprop="name" content="{{ .Site.Title }}">
-        </div>
-        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <meta itemprop="name" content="{{ .Site.Params.Author }}">
-        </div>
-
-        <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
-
-        <header class="article-header">
-          <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
-          <h1 class="article-title">{{ .Title }}</h1>
-        </header>
-
-        <div class="article-body" itemprop="articleBody">
-        </div>
--->
-                <!-- Blog Post -->
-
-                <!-- Title -->
-                <h1>{{ .Title }}</h1>
-
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="#">Start Bootstrap</a>
-                </p>
-
-                <hr>
-
-                <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-
-                <hr>
-
-                <!-- Post Content -->
-                {{ .Content }}
-
-
-<!--
-        <aside>
-          {{ with .Params.tags }}<div class="section">{{ range . }}<a href="{{ $.Site.BaseURL}}tags/{{ . }}" class="tag">{{ . }}</a> {{ end }}</div>{{ end }}
-
-          <div class="section share">
-            <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-            <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-            <a href="https://plus.google.com/share?url={{ .Permalink }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-            <a href="http://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
-          </div>
-
-          {{ if and (ne .Site.Params.comment false) (ne .Params.comment false) }}
-          {{ with .Site.Params.disqusShortname }}
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-(function() {
-  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  var disqus_shortname = '{{ . }}';
-  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-          <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-          {{ end }}
-          {{ end }}
-        </aside>
-
-      </article>
--->
-                {{ partial "comments.html" . }}
-
+        <article class="single well" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
+            <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+            <meta itemprop="headline" content="{{ .Title }}">
+            <meta itemprop="description" content="{{ .Summary }}">
+            <meta itemprop="url" content="{{ .Permalink }}">
+            <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
+                <meta itemprop="width" content="800">
+                <meta itemprop="height" content="800">
             </div>
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                    <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
+                    <meta itemprop="width" content="100">
+                    <meta itemprop="height" content="100">
+                </div>
+                <meta itemprop="name" content="{{ .Site.Title }}">
+            </div>
+            <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <meta itemprop="name" content="{{ .Site.Params.Author }}">
+            </div>
+            <header class="article-header">
+                <h1>{{ .Title }}</h1>
+                <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><span class="glyphicon glyphicon-time"></span> Posted on {{ .Date.Format "January 2, 2006" }}</time>
+            </header>
 
-            {{ partial "sidebar.html" . }}
-        </div>
-        <!-- /.row -->
+            <img class="img-responsive" src="http://placehold.it/710x230" alt="">
+            <p>{{ .Content }}</p>
 
-        {{ partial "footer.html" . }}
+            <aside>
+                {{ with .Params.tags }}<div class="section">{{ range . }}<a href="{{ $.Site.BaseURL}}tags/{{ . }}" class="tag">{{ . }}</a> {{ end }}</div>{{ end }}
+                <div class="section share">
+                    <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+                    <a href="https://plus.google.com/share?url={{ .Permalink }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+                    <a href="http://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+                </div>
+                {{ template "_internal/disqus.html" . }}
+            </aside>
+        </article>
+
+    </div>
+    {{ partial "sidebar.html" . }}
+</div>
+{{ partial "footer.html" . }}
