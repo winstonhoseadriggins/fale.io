@@ -1,0 +1,23 @@
+<!--<article class="li">
+  <a href="{{ .Permalink }}" class="clearfix">
+    <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
+    <div class="detail">
+      <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+      <h2 class="title">{{ .Title }}</h2>
+      <div class="summary">{{ .Summary }}</div>
+    </div>
+  </a>
+</article>-->
+
+                <h2>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ $.Date.Format "January 2, 2006" }}</p>
+                <hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <hr>
+                <p>{{ .Summary }}</p>
+                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+
