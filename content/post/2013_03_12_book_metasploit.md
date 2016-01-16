@@ -1,6 +1,6 @@
 ---
 date: "2013-03-12T09:00:15+02:00"
-tags: [ "Book", "Penetration testing", "Metasploit", "Mati Aharoni", "Devon Kearns", "Jim O'Gorman", "David Kennedy", "No Starch Press" ]
+tags: [ "Book", "Penetration testing", "Metasploit", "No Starch Press" ]
 categories: [ "Security", "Review" ]
 title: "Metasploit by Mati Aharoni, Devon Kearns, Jim O'Gorman, David Kennedy (No Starch Press)"
 ---

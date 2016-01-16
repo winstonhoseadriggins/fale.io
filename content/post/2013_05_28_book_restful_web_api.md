@@ -1,6 +1,6 @@
 ---
 date: "2013-05-28T09:00:55+02:00"
-tags: [ "Book", "RESTful APIs", "Leonard Richardson", "Mike Amundsen", "Sam Ruby", "O'Reilly Media" ]
+tags: [ "Book", "API", "O'Reilly Media" ]
 categories: [ "Web", "Review" ]
 title: "RESTful Web APIs by Leonard Richardson, Mike Amundsen, Sam Ruby (O'Reilly Media)"
 ---

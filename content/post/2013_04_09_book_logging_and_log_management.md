@@ -1,6 +1,6 @@
 ---
 date: "2013-04-09T09:00:15+02:00"
-tags: [ "Book", "Logging", "Anton Chuvakin", "Kevin Schmidt", "Chris Phillips", "Elsevier", "Syngress" ]
+tags: [ "Book", "Logs", "Elsevier", "Syngress" ]
 categories: [ "Security", "Review" ]
 title: "Logging and Log Management by Anton Chuvakin, Kevin Schmidt, Chris Phillips (Elsevier/Syngress)"
 ---

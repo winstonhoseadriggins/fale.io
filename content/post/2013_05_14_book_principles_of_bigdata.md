@@ -1,6 +1,6 @@
 ---
 date: "2013-05-14T09:00:23+02:00"
-tags: [ "Book", "Jules J Berman", "Elsevier", "Morgan Kaufmann" ]
+tags: [ "Book", "Elsevier", "Morgan Kaufmann" ]
 categories: [ "Big Data", "Review" ]
 title: "Principles of Big Data: Preparing, Sharing, and Analyzing Complex Information by Jules J Berman (Elsevier/Morgan Kaufmann)"
 ---

@@ -1,10 +1,12 @@
 ---
 date: "2013-01-03T09:00:00+02:00"
 title: "How to send an e-mail with attachment from the command line"
-categories: [ "Linux" ]
-tags: [ "Mails", "Attachments", "Bash", "CLI", "Linux", "Shell", "Programming", "UNIX" ]
+categories: [ "Linux", "CLI", "Programming" ]
+tags: [ "Mails", "Attachments", "Shell", "UNIX" ]
 ---
-<img class="alignleft  wp-image-1092" alt="konsole" src="http://fabiolocati.com/wp-content/uploads/2013/01/konsole-300x300.png" width="180" height="180" />Have you ever had to develop a script in UNIX that has to send an email?
+<img class="alignleft  wp-image-1092" alt="konsole" src="http://fabiolocati.com/wp-content/uploads/2013/01/konsole-300x300.png" width="180" height="180" />
+
+Have you ever had to develop a script in UNIX that has to send an email?
 
 If you have, probably you have used the "mail" function since this program is the standard program to send e-mails in UNIX environments if you are using the CLI (Command Line Interface).
 

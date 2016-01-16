@@ -1,6 +1,6 @@
 ---
 date: "2013-04-02T09:00:15+02:00"
-tags: [ "Video", "HTML", "HTML5", "David Geary", "O'Reilly Media" ]
+tags: [ "Video", "HTML5", "O'Reilly Media" ]
 categories: [ "Web", "Review" ]
 title: "HTML5 Canvas for Developers by David Geary (O'Reilly Media)"
 ---

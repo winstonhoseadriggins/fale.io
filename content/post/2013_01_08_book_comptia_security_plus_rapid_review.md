@@ -1,7 +1,7 @@
 ---
 date: "2013-01-08T09:00:00+02:00"
-tags: [ "Book", "CompTIA", "ComTIA Security+", "Michael Gregg", "Microsoft Press", "SY0-301" ]
-categories: [ "Security", "Certification", "Review" ]
+tags: [ "Book", "CompTIA", "Certification", "Microsoft Press" ]
+categories: [ "Security", "Review" ]
 title: "CompTIA Security+ Rapid Review (Exam SY0-301) by Michael Gregg (Microsoft Press)"
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735666856/cat.gif" width="180" height="278" />After the CompTIA Network+ Training Kit I find myself to review the CompTIA Security+ Rapid Exam Review.

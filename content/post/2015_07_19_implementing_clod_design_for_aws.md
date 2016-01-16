@@ -1,7 +1,7 @@
 ---
 date: "2015-07-19T09:00:00+02:00"
-tags: [ "Book", "Cloud", "AWS", "Marcus Young", "Packt Publishing" ]
-categories: [ "Review" ]
+tags: [ "Book", "Packt Publishing" ]
+categories: [ "Review", "AWS", "Cloud" ]
 title: "Implementing Cloud Design Patterns for AWS by Marcus Young (Packt Publishing)"
 ---
 <img class="alignleft" alt="" src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/7340OT.jpg" width="180" />

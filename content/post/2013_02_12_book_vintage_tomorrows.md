@@ -1,6 +1,6 @@
 ---
 date: "2013-02-12T09:00:15+02:00"
-tags: [ "Book", "Steampunk", "Brian David Johnson", "James H. Carrott", "O'Reilly Media" ]
+tags: [ "Book", "Steampunk", "O'Reilly Media" ]
 categories: [ "Review" ]
 title: "Vintage Tomorrows A Historian And A Futurist Journey Through Steampunk Into The Future of Technology by Brian David Johnson and James H. Carrott (O'Reilly Media)"
 ---

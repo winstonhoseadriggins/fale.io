@@ -1,6 +1,6 @@
 ---
 date: "2013-03-19T09:00:15+02:00"
-tags: [ "Book", "Wireless", "Penetration Testing", "Matthew Neely", "Alex Hamerstone", "Chris Sanyk", "Elsevier", "Syngress" ]
+tags: [ "Book", "Wireless", "Penetration Testing", "Elsevier", "Syngress" ]
 categories: [ "Security", "Review" ]
 title: "Wireless Reconnaissance in Penetration Testing by Matthew Neely, Alex Hamerstone, Chris Sanyk (Elsevier/Syngress)"
 ---

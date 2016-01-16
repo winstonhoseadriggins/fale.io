@@ -1,6 +1,6 @@
 ---
 date: "2013-04-16T09:00:15+02:00"
-tags: [ "Book", "Mike Shema", "Elsevier", "Syngress" ]
+tags: [ "Book", "Elsevier", "Syngress" ]
 categories: [ "Security", "Web", "Review" ]
 title: "Hacking Web Apps by Mike Shema (Elsevier/Syngress)"
 ---

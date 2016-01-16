@@ -1,6 +1,6 @@
 ---
 date: "2014-04-02T17:10:03+02:00"
-tags: [ "Book", "Wireshark", "Robert J. Shimonski", "Elsevier" ]
+tags: [ "Book", "Wireshark", "Elsevier" ]
 categories: [ "Linux", "Security", "Networking", "Review" ]
 title: "The Wireshark Field Guide by Robert J. Shimonski (Elsevier)"
 ---

@@ -1,6 +1,6 @@
 ---
 date: "2013-05-07T09:00:15+02:00"
-tags: [ "Book", "Anonymity", "Tor", "Peter Loshin", "Elsevier", "Syngress" ]
+tags: [ "Book", "Anonymity", "Tor", "Elsevier", "Syngress" ]
 categories: [ "Security", "Web", "Review" ]
 title: "Practical Anonymity, by Peter Loshin (Elsevier/Syngress)"
 ---

@@ -1,7 +1,7 @@
 ---
 date: "2013-01-15T09:00:15+02:00"
-tags: [ "Book", "CompTIA", "CompTIA A+", "Darril Gibson", "Microsoft Press" ]
-categories: [ "Certification", "Review" ]
+tags: [ "Book", "CompTIA", "Certification", "Microsoft Press" ]
+categories: [ "Review" ]
 title: "CompTIA A+ Training Kit (Exam 220-801 and Exam 220-802) By Darril Gibson (Microsoft Press)"
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735662681/cat.gif" width="180" height="220" />

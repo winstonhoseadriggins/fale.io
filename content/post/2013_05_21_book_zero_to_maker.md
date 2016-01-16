@@ -1,6 +1,6 @@
 ---
 date: "2013-05-21T09:00:19+02:00"
-tags: [ "Book", "Maker Media", "David Lang" ]
+tags: [ "Book", "Maker Media", "Make" ]
 categories: [ "Review" ]
 title: "Zero to Maker: Learn (Just Enough) to Make (Just About) Anything by David Lang (Maker Media)"
 ---

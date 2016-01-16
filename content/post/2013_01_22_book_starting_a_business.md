@@ -1,6 +1,6 @@
 ---
 date: "2013-01-22T09:00:15+02:00"
-tags: [ "Book", "Business", "Scott L. Girard Jr.", "Michael F. O'Keefe", "Marc A. Price", "Nova Vista Publishing" ]
+tags: [ "Book", "Business", "Nova Vista Publishing" ]
 categories: [ "Review" ]
 title: "Starting a Business Learn What You Need in Two Hours By Scott L. Girard Jr., Michael F. O'Keefe, Marc A. Price (Nova Vista Publishing)"
 ---

@@ -1,6 +1,6 @@
 ---
 date: "2013-04-23T09:00:15+02:00"
-tags: [ "Book", "Hadoop", "Tom White", "O'Reilly Media" ]
+tags: [ "Book", "Hadoop", "O'Reilly Media" ]
 categories: [ "Big Data", "Review" ]
 title: "Hadoop: The Definitive Guide by Tom White (O'Reilly Media)"
 ---

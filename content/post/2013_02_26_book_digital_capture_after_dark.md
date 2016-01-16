@@ -1,7 +1,7 @@
 ---
 date: "2013-02-26T09:00:15+02:00"
-tags: [ "Book", "Philipp Scholz Rittermann", "Amanda Quintenz-Fiedler",  "Rocky Nook" ]
-categories: [ "Photography", "Review" ]
+tags: [ "Book", "Photography",  "Rocky Nook" ]
+categories: [ "Review" ]
 title: "Digital Capture After Dark by Philipp Scholz Rittermann, Amanda Quintenz-Fiedler (Rocky Nook)"
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781933952666/cat.gif" width="180" height="225" />This book does cover one of the hardest topic that are present in digital photography. In fact, the photographies in the dark are the are the ones which are more frequently bad looking. The book provides with a big amount of techniques and tips covering equipment, the actual taking of the image, and post-production.
