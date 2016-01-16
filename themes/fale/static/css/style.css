@@ -4,11 +4,11 @@ body {
     background: #EEEEEE;
 }
 
-.navbar {
-    margin-bottom: 20px;
+.navbar-default,
+.well {
+    background: #FFFFFF;
 }
 
 footer {
-    margin: 50px 0;
     text-align: center;
 }
