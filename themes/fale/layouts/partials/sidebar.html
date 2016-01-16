@@ -1,7 +1,7 @@
 <aside class="col-md-4">
 
     <div class="well">
-        <h4>Latest posts</h4>
+        <h3>Latest posts</h3>
         <ul class="list-unstyled">
         {{ range first 10 .Site.Pages }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
@@ -10,24 +10,33 @@
     </div>
 
     <div class="well">
-        <h4>Social networks</h4>
+        <h3>Social networks</h3>
         <ul class="list-unstyled">
+            <li><i class="fa fa-fw fa-facebook-square"></i><a href="https://facebook.com/fabiolocati/">Facebook</a></li>
             <li><i class="fa fa-fw fa-github-square"></i><a href="https://github.com/fale">GitHub</a></li>
-            <li><i class="fa fa-fw fa-key"></i><a href="https://keybase.io/fale">Keybase</a></li>
-            <li><i class="fa fa-fw fa-twitter-square"></i><a href="https://twitter.com/f4l3">Twitter</a></li>
             <li><i class="fa fa-fw fa-google-plus-square"></i><a href="https://plus.google.com/u/0/+FabioAlessandroLocati/posts">Google Plus</a></li>
+            <li><i class="fa fa-fw fa-key"></i><a href="https://keybase.io/fale">Keybase</a></li>
+            <li><i class="fa fa-fw fa-linkedin-square"></i><a href="https://it.linkedin.com/in/fabiolocati">LinkedIN</a></li>
+            <li><i class="fa fa-fw fa-twitter-square"></i><a href="https://twitter.com/f4l3">Twitter</a></li>
         </ul>
     </div>
 
-    {{ range $key, $value := .Site.Taxonomies }}
     <div class="well">
-        <h2>{{ $key | singularize }}</h2>
+        <h3>Categories</h3>
         <ul class="list-unstyled">
-        {{ range first 10 $value.ByCount }}
-            <li><a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">{{ .Name }}</a></li>
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
         {{ end }}
         </ul>
     </div>
-    {{ end }}
+
+    <div class="well">
+        <h3>Tags</h3>
+        <ul class="list-unstyled">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+        {{ end }}
+        </ul>
+    </div>
 
 </aside>

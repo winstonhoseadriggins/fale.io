@@ -16,3 +16,4 @@ params:
 taxonomies:
   tag: "tags"
   category: "categories"
+  aggregator: "aggregators"
