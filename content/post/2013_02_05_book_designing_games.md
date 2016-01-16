@@ -1,6 +1,6 @@
 ---
 date: "2013-02-05T09:00:15+02:00"
-tags: [ "Book", "Games", "Tynan Sylvester", "O'Reilly Media" ]
+tags: [ "Book", "Games", "O'Reilly Media" ]
 categories: [ "Review" ]
 title: "Designing Games - A Guide to Engineering Experiences by Tynan Sylvester (O'Reilly Media)"
 ---

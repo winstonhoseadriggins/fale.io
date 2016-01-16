@@ -1,6 +1,6 @@
 ---
 date: "2013-03-05T09:00:15+02:00"
-tags: [ "Book", "CompTIA", "CompTIA A+", "Darril Gibson", "Microsoft Press" ]
+tags: [ "Book", "CompTIA", "Microsoft Press" ]
 categories: [ "Certification", "Review" ]
 title: "CompTIA A+ Rapid Review (Exam 220-801 and Exam 220-802) by Darril Gibson (Microsoft Press)"
 ---
