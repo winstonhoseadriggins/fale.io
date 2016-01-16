@@ -3,16 +3,6 @@
     src: url("/fonts/Cantarell-Regular-webfont.woff") format('woff');
 }
 
-@font-face {
-    font-family: "Comfortaa";
-    src: url("/fonts/comfortaa-regular-webfont.woff") format('woff');
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Comfortaa', sans-serif;
-}
-
-
 body {
     font-family: 'Cantarell', sans-serif;
     padding-top: 20px;
