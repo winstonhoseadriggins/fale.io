@@ -1,16 +1,11 @@
-/*!
- *  * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
- *   * Code licensed under the Apache License v2.0.
- *    * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- *     */
-
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #EEEEEE;
 }
 
 .navbar {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
