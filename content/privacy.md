@@ -1,5 +1,6 @@
 ---
 title: "Privacy"
+no_comments: true
 ---
 
 ### What is a cookie and what is its purpose?
