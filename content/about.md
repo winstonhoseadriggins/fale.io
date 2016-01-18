@@ -3,4 +3,15 @@ title: "about"
 no_comments: true
 ---
 
-Fabio Alessandro Locati works in the computer science field, communication field and personal growth. He is the founder of Ship & Sale Ltd, a company that operates in the field of e-commerce, and of many advanced web projects. He improved his skills by attending courses and workshops on new technologies, effective communication, NLP (Neuro Linguistic Programming).
+Fabio Alessandro Locati is an Italian Solution Architect consultant.
+His main areas of expertise are Linux, security, cloud technologies, databases, networking, and data centers.
+
+With more than 10 years of working experience in the field, he has experienced different IT roles, technologies, and languages.
+Fabio has worked for many different companies, starting from a one-man company to huge companies such as Tech Data and Samsung.
+This has allowed him to consider various technologies from different points of view, helping him develop critical thinking and understand very quickly whether a particular technology is the right one for a specific project or not.
+
+Since he is always looking for better technologies, he also tries new technologies to see their advantages over the old ones and their maturity status.
+One of the most important things Fabio evaluates about a technology is its internal security and the possibility of additional security through configuration or interaction with the other technologies.
+
+In the spare time he helps out the Fedora Project as well as Wikimedia and Open Street Map.
+Often he gives talks about his work, the projects he helps in his spare time and his vision of IT and security worlds.
