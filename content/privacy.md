@@ -24,4 +24,4 @@ Also cookies can be divided in two categories based on the creator of the cookie
 * **Third-part cookies**: are created and managed by a third-part
 
 ### How can I manage my cookie?
-The user has the option to allow, block or delete cookies installed on your computer by setting your browser options installed on your terminal: for more information about this, look the documentation of your browser of choice. 
+The user has the option to allow, block or delete cookies installed on your computer by setting your browser options installed on your terminal: for more information about this, look the documentation of your browser of choice.
