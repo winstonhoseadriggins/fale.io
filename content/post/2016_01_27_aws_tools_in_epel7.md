@@ -1,17 +1,17 @@
 ---
-date: "2016-01-25T09:00:00+02:00"
+date: "2016-01-27T09:00:00+02:00"
 categories: [ "Linux", "Fedora", "EPEL", "RHEL", "CentOS", "CLI", "AWS" ]
 aggregators: [ "Fedora" ]
 title: "The AWS tools are approaching EPEL7"
 ---
 
 A couple of weeks ago, I've announced the [availability of AWS tools for Fedora]({{< ref "post/2016_01_16_aws_tools_in_fedora.md" >}}).
-I'm very happy to announce today that they are reaching EPEL7 repositories as well.
+I'm very happy to announce that today they are available in the EPEL7 repository as well.
 
-The **Extra Packages for Enterprise Linux** (EPEL) repository is an RPM repository managed by the Fedora community that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux, including, but not limited to, Red Hat Enterprise Linux (RHEL), CentOS, Scientific Linux (SL), and Oracle Linux (OL).
+The **Extra Packages for Enterprise Linux** (EPEL) repository is an RPM repository managed by the Fedora community that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux, including, but not limited to, **Red Hat Enterprise Linux** (RHEL), **CentOS**, **Scientific Linux** (SL), and **Oracle Linux** (OL).
 As you can imagine, the **7** stays for the version, so only the version 7.x of the named distributions will allow you to install those packages.
 
-If you want to try it immediately, to have to have the EPEL repository installed (if you don't have it or aren't sure about it, you can run as root:
+If you want to try, you need to have the EPEL repository installed. If you don't have EPEL repository or you aren't sure about it, you can install it running as root:
 
 ``` bash
 yum install epel-testing
@@ -20,15 +20,13 @@ yum install epel-testing
 And then you can install the AWS tools issuing the following command as root:
 
 ``` bash
-yum install awscli boto3 --updaterepo=epel-testing
+yum install awscli boto3
 ```
 This will install you the following three programs:
 
 * **botocore**: a low level Python library to interact with Amazon Web Services APIs
 * **boto3**: a high level Python library to interact with Amazon Web Services APIs
 * **awscli**: a Command Line Interface to interact with Amazon Web Services APIs
-
-I hope those packages will reach the official **EPEL** branch later this week or at the begin of the following one.
 
 I've looked at porting it to **EPEL6** as well, but I have big doubts about it.
 
