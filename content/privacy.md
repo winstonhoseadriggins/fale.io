@@ -20,6 +20,7 @@ The cookies can be of different types based on their goal:
 * **Profiling cookies**: these allow the to profile the users of a websites. These can be used for advertisement or for statistical analysis. Advertising cookie can be used to effective management of advertising spaces which are included in the Web page or application from which the service is provided. They allow the adaptation of advertising for it to be relevant to the user and to avoid showing ads that the user has already seen. Statistical analysis cookies allow the monitoring and analysis of user behavior on websites. The information gathered through such cookies is used in measuring the activity of web, application or platform sites and the profiling of user navigation of these sites, in order to make improvements to the service and functionality for users.
 
 Also cookies can be divided in two categories based on the creator of the cookie:
+
 * **First-part cookies**: are created and managed by the website owner
 * **Third-part cookies**: are created and managed by a third-part
 

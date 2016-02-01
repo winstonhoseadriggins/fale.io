@@ -19,6 +19,7 @@ params:
   Copyright: 'Fabio Alessandro Locati'
   LaunchYear: 2012
   PoweredByHugo: 'True'
+  TaxonomiesInSidebar: [ 'categories', 'tags' ]
 taxonomies:
   tag: "tags"
   category: "categories"
