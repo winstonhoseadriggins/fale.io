@@ -4,7 +4,8 @@ publishdir: "public"
 languageCode: "en"
 title: "Fabio Alessandro Locati"
 disqusShortname: "fabiolocati"
-theme: fale
+theme: bootstrap2hugo
+googleAnalytics: 'UA-62427039-3'
 permalinks:
   post: /blog/:year/:month/:day/:title/
 params:
@@ -14,7 +15,31 @@ params:
   SidebarRecentLimit: 5
   LanguageCode: "en"
   Locale: "en_US"
+  Subtitle: 'Fabio Alessandro Locati (fale) personal website'
+  Copyright: 'Fabio Alessandro Locati'
+  LaunchYear: 2012
+  PoweredByHugo: 'True'
 taxonomies:
   tag: "tags"
   category: "categories"
   aggregator: "aggregators"
+menu:
+  social:
+    - name: Facebook
+      pre: '<i class="fa fa-fw fa-facebook-square"></i>'
+      url: 'https://facebook.com/fabiolocati/'
+    - name: GitHub
+      pre: '<i class="fa fa-fw fa-github-square"></i>'
+      url: 'https://github.com/fale'
+    - name: Google Plus
+      pre: '<i class="fa fa-fw fa-google-plus-square"></i>'
+      url: 'https://plus.google.com/u/0/+FabioAlessandroLocati/posts'
+    - name: Keybase
+      pre: '<i class="fa fa-fw fa-key"></i>'
+      url: 'https://keybase.io/fale'
+    - name: LinkedIN
+      pre: '<i class="fa fa-fw fa-linkedin-square"></i>'
+      url: 'https://it.linkedin.com/in/fabiolocati'
+    - name: Twitter
+      pre: '<i class="fa fa-fw fa-twitter-square"></i>'
+      url: 'https://twitter.com/f4l3'
