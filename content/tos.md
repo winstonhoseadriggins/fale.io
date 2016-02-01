@@ -1,7 +1,12 @@
 ---
-title: "Privacy"
+title: "Terms of Service"
 no_comments: true
 ---
+
+## License
+This website is published under the CC-BY-SA 4.0 terms.
+
+## Cookies
 
 ### Which cookies are used by this websire?
 Our website uses only **third party cookies**, specifically:
