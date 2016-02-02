@@ -47,3 +47,5 @@ menu:
   top:
     - name: About
       url: '/about'
+    - name: PGP
+      url: '/pgp'
