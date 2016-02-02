@@ -1,0 +1,3 @@
+[submodule "themes/bootstrap2hugo"]
+	path = themes/bootstrap2hugo
+	url = https://github.com/Fale/bootstrap2hugo.git
