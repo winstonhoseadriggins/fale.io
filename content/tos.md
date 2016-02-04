@@ -4,7 +4,7 @@ no_comments: true
 ---
 
 ## License
-This website is published under the CC-BY-SA 4.0 terms.
+This website is published under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) terms.
 
 ## Cookies
 
