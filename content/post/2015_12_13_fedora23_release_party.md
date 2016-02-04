@@ -12,4 +12,4 @@ The number of people that partecipated at the event was below expectation, but p
 
 Even with those small things that will be more in our focus next time, we had a great time and a great cake :).
 
-![The cake](/img/posts/2015_fedora23_release_party_cake.jpg)
+![The cake](/img/posts/2015_12_13_fedora23_release_party.jpg)
