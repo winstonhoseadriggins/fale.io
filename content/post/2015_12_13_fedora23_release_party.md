@@ -3,7 +3,6 @@ date: "2015-12-13T09:00:00+02:00"
 categories: [ "Linux", "Events", "Fedora" ]
 aggregators: [ "Fedora" ]
 title: "Fedora 23 release party"
-image: "2015_fedora23_release_party_presentation.jpg"
 ---
 Few days ago, on November 23, we have had a Fedora 23 release party in Milan, as [we announced in the wiki](https://fedoraproject.org/wiki/Release_Party_F23_Milan).
 
