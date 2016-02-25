@@ -17,7 +17,7 @@ params:
   Locale: "en_US"
   Subtitle: 'Fabio Alessandro Locati (fale) personal website'
   Copyright: 'Fabio Alessandro Locati'
-  LaunchYear: 2012
+  LaunchYear: 2011
   PoweredByHugo: 'True'
   TaxonomiesInSidebar: [ 'categories', 'tags' ]
 taxonomies:
