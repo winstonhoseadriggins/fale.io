@@ -3,7 +3,7 @@ title: "About"
 no_comments: true
 ---
 
-Fabio Alessandro Locati is an Italian Solution Architect consultant.
+Fabio Alessandro Locati is a Solution Architect consultant, public speaker, entrepreneur, author and Open Source contributor.
 His main areas of expertise are Linux, security, cloud technologies, databases, networking, and data centers.
 
 With more than 10 years of working experience in the field, he has experienced different IT roles, technologies, and languages.
@@ -13,5 +13,6 @@ This has allowed him to consider various technologies from different points of v
 Since he is always looking for better technologies, he also tries new technologies to see their advantages over the old ones and their maturity status.
 One of the most important things Fabio evaluates about a technology is its internal security and the possibility of additional security through configuration or interaction with the other technologies.
 
-In the spare time he helps out the Fedora Project as well as Wikimedia and Open Street Map.
 Often he gives talks about his work, the projects he helps in his spare time and his vision of IT and security worlds.
+He is the author of the book [OpenStack Cloud Security](https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security/).
+In the spare time he helps out the Fedora Project as well as Wikimedia and Open Street Map.
