@@ -46,5 +46,7 @@ menu:
       pre: '<i class="fa fa-fw fa-twitter-square"></i>'
       url: 'https://twitter.com/f4l3'
   top:
+    - name: Public Speaking
+      url: '/public_speaking'
     - name: About
       url: '/about'
