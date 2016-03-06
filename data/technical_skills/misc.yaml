@@ -1,0 +1,10 @@
+name: Miscellaneous
+list:
+  - System Administration level
+    - MediaWiki
+    - Wordpress
+    - git
+    - SVN
+    - UNIX tools
+  - Working knowledge
+    - Nagios
