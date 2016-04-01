@@ -1,8 +1,0 @@
-name: Virtualization
-list:
-  - System Administration level
-    - MySQL 5.0, 5.1, 5.5, 5.6, 5.7
-    - MariaDB 5.5, 10.0, 10.1
-    - pgSQL
-  - Working knowledge
-    - MongoDB
