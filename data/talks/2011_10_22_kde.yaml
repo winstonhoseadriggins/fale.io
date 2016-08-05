@@ -1,12 +1,19 @@
 date: 2011-10-22
 sponsor: ViGLug
-event: Linux Day
-location: Pessano con Bornago, IT
+event: Linux Day 2011
+location:
+  address: Via Grazia Deledda 21
+  city: Pessano con Bornago
+  zip: 20060
+  country: IT
 language: it
+type: talk
+length: 45
 title:
- en: KDE
- it: KDE
+  en: KDE: Learn having fun
+  it: KDE: Imparare divertendosi
+url: https://viglug.org/docs/2011_linux_day.pdf
 tags:
- - KDE
- - Open Source
- - Desktop Environment
+- KDE
+- Open Source
+- Desktop Environment

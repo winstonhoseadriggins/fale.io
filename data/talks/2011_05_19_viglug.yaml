@@ -1,11 +1,19 @@
 date: 2011-05-19
 sponsor: ViGLug
 event: Brain Jumble
-location: Settala, IT
+location:
+  address: Via G. Verdi 8/c
+  city: Settala
+  zip: 20090
+  country: IT
 language: it
+type: talk
+length: 45
 title:
- en: The ViGLug
- it: Il ViGLug
+  en: The ViGLug
+  it: Il ViGLug
+url: https://viglug.org/docs/2011_brain_jumble.pdf
+replacement_talk: True
 tags:
  - ViGLug
  - LUG
