@@ -37,7 +37,7 @@
 
             <ul>
             {{ range $.Site.Data.talks }}
-                <li>{{ dateFormat "2006" .date }} - {{ .event }} ({{ .location }}) - {{ .title.en }} (lang: {{ .language }})</li>
+                <li>{{ dateFormat "2006" .date }} - {{ .event }} ({{ .location.city }}, {{ .location.country }}) - {{ .title.en }} (lang: {{ .language }})</li>
             {{ end }}
             </ul>
 

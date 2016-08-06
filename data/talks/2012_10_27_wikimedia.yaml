@@ -1,11 +1,18 @@
 date: 2012-10-27
 sponsor: ViGLug
-event: Linux Day
-location: Inazgo, IT
+event: Linux Day 2012
+location:
+  address: Via Piola 10
+  city: Inzago
+  zip: 20065
+  country: IT
 language: it
+type: talk
+length: 45
 title:
- en: Wikimedia Foundation
- it: Wikimedia Foundation
+  en: Wikimedia Foundation
+  it: Wikimedia Foundation
+url: https://viglug.org/docs/2012_linux_day.pdf
 tags:
- - Wikimedia
- - Free Knowledge
+- Wikimedia
+- Free Knowledge

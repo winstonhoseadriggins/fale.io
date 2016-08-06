@@ -10,8 +10,8 @@ language: it
 type: talk
 length: 45
 title:
-  en: KDE: Learn having fun
-  it: KDE: Imparare divertendosi
+  en: 'KDE: Learn having fun'
+  it: 'KDE: Imparare divertendosi'
 url: https://viglug.org/docs/2011_linux_day.pdf
 tags:
 - KDE
