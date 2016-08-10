@@ -1,10 +1,16 @@
 date: 2016-08-02
 sponsor: Flock
 event: Flock 2016
-location: Krakow, PL
+location:
+  address: Opolska 14a
+  city: Kraków
+  zip: 31-323
+  country: PL
 language: en
+type: talk
+length: 45
 title:
- en: A year managing the Italian Fedora Community
+  en: A year managing the Italian Fedora Community
 url: https://flock2016.sched.org/event/76np/a-year-managing-the-italian-fedora-community 
 tags:
- - fedora
+- fedora

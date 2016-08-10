@@ -9,7 +9,8 @@ location:
 language: it
 type: talk
 length: 45
-cospeaker: Giuseppe Bruno de Luca
+cospeaker:
+- Giuseppe Bruno de Luca
 title:
   en: Ubuntu
   it: Ubuntu

@@ -1,10 +1,16 @@
 date: 2016-05-12
 sponsor: Codemotion
 event: Codemotion Amsterdam 2016
-location: Amsterdam, NL
+location:
+  address: Gedempt Hamerkanaal 231
+  city: Amsterdam
+  zip: 1021 KP
+  country: NL
 language: en
+type: talk
+length: 45
 title:
- en: If security is hard, you are doing it wrong
+  en: If security is hard, you are doing it wrong
 url: http://amsterdam2016.codemotionworld.com/wp-content/themes/event/detail-talk.php?detail=2852
 tags:
- - security
+- security
