@@ -18,5 +18,7 @@ title:
   en: The adoption of GNU/Linux in the organizations
   it: L'adozione di GNU/Linux nelle organizzazioni
 url: http://brigx.it/evento/linuxday2016-brianza
+artifacts:
+  slides: https://fale.fedorapeople.org/slides/20161022-it-linux.pdf
 tags:
  - linux
