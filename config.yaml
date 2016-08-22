@@ -11,9 +11,7 @@ permalinks:
 params:
   Subtitle: "Spinning the cogs in the widgets"
   Author: "Fabio Alessandro Locati"
-  Address: "Flat 4, 15 Ravenscourt Park, London, W6 0UH"
-  Email: "fabiolocati@gmail.com"
-  Phone: "+44 078 407 408 58"
+  Email: "me@fale.io"
   GitHubUser: "fale"
   SidebarRecentLimit: 5
   LanguageCode: "en"
