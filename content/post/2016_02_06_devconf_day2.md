@@ -1,6 +1,6 @@
 ---
 date: "2016-02-06T09:00:00+02:00"
-categories: [ "Linux", "DevConf", "Fedora", "RedHat", "Events" ]
+categories: [ "Linux", "DevConf", "Fedora", "Red Hat", "Events" ]
 aggregators: [ "Fedora", "KDE" ]
 places: [ "Brno, Czech Republic" ]
 title: "DevConf - day 2"
