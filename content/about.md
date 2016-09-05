@@ -14,5 +14,5 @@ Since he is always looking for better technologies, he also tries new technologi
 One of the most important things Fabio evaluates about a technology is its internal security and the possibility of additional security through configuration or interaction with the other technologies.
 
 Often he gives talks about his work, the projects he helps in his spare time and his vision of IT and security worlds.
-He is the author of the book [OpenStack Cloud Security](https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security/).
+He is the author of the books [Learning Anisble 2](https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition) and [OpenStack Cloud Security](https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security/).
 In the spare time he helps out the Fedora Project as well as Wikimedia and Open Street Map.

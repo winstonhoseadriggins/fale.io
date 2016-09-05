@@ -24,7 +24,7 @@ There are some things that can be done to increase the performances of Ansible:
 
 4. Tweak the number of **forks**. Ansible will operate on multiple controlled systems at once, and the exact amount is defined with the forks variable. You can change this value adding a "forks = X" line in your ansible.cfg file. By default this value is 5.
 
-5. If you are using **Paramiko mode** (aka: you are running Ansible from a machine that has EL6 or lower) every task will require a new SSH connection to be created. To reuse the same SSH connection, use the **accelerated mode**, by adding "accelerate: true" in your playbooks. If you are running Ansible on Enterprise Linux 7 or newer, this is not needed since by default SSH connections are reused.
+5. If you are using **Paramiko mode** (aka: you are running Ansible from a machine that has EL6 or lower) every task will require a new SSH connection to be created. To reuse the same SSH connection, use the **accelerated mode**, by adding "accelerate: True" in your playbooks. If you are running Ansible on Enterprise Linux 7 or newer, this is not needed since by default SSH connections are reused.
 
 6. Use **cycles** to improve speed. Some tasks have embedded optimizations if are called with an "with_items" parameter instead of called multiple times. Examples of this are the tasks to install packages, in fact you will call them with "with_items", they will perform one single transaction with all required packages together sppeding up the execution.
 
