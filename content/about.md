@@ -3,8 +3,8 @@ title: "About"
 no_comments: true
 ---
 
-Fabio Alessandro Locati is a Solution Architect consultant, public speaker, entrepreneur, author and Open Source contributor.
-His main areas of expertise are Linux, security, cloud technologies, databases, networking, and data centers.
+Fabio Alessandro Locati is a Senior Consultant at Red Hat, public speaker, entrepreneur, author and Open Source contributor.
+His main areas of expertise are Linux, security, cloud technologies, databases, networking, and data centres.
 
 With more than 10 years of working experience in the field, he has experienced different IT roles, technologies, and languages.
 Fabio has worked for many different companies, starting from a one-man company to huge companies such as Tech Data and Samsung.
@@ -15,4 +15,4 @@ One of the most important things Fabio evaluates about a technology is its inter
 
 Often he gives talks about his work, the projects he helps in his spare time and his vision of IT and security worlds.
 He is the author of the books [Learning Anisble 2](https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition) and [OpenStack Cloud Security](https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security/).
-In the spare time he helps out the Fedora Project as well as Wikimedia and Open Street Map.
+In the spare time he helps out the Fedora Project, Ansible, Wikimedia, and Open Street Map.
