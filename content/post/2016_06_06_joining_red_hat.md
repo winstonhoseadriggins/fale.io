@@ -1,5 +1,5 @@
 ---
-date: "2016-11-05T09:00:00+00:00"
+date: "2016-06-06T09:00:00+01:00"
 categories: [ "Life", "Red Hat" ]
 aggregators: [ "Fedora", "KDE" ]
 title: "Joining Red Hat"
