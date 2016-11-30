@@ -1,5 +1,5 @@
 ---
-date: "2016-11-05T09:00:00+00:00"
+date: "2016-12-01T09:00:00+00:00"
 categories: [ "Ansible" ]
 aggregators: [ "Fedora", "KDE" ]
 title: "Speedup Ansible"
@@ -11,7 +11,7 @@ The three main reasons are:
 
 * **Linear execution**: Ansible will execute each operation in order and will not run many steps at the same time as Puppet does.
 * **SSH Connection**: all Ansible commands will be issued from the control system to the controlled system via SSH. On the other hand, in Puppet, all commands will be issued locally on the controlled host by the Puppet agent.
-* **Host limitation**: since Ansible controller system is involved with the process of applying changes to the controlled system, a limited number of systems can be changes at once.
+* **Host limitation**: since the Ansible Controller is involved with the process of applying changes to the controlled system, a limited number of systems can be changes at once.
 
 Those limits come out from design decisions that preferred a simpler Playbook writing and a safer execution rather than speed.
 There are some things that can be done to increase the performances of Ansible:
