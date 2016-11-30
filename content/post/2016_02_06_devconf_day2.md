@@ -13,7 +13,7 @@ Probably the most interesting talk of the day has been the one by Josh Bressers 
 
 In the afternoon I've had a very pleasant meeting with the Fedora Internationalization team to see where the various community are and what we can do to improve the current situation.
 
-Later I went to the party, but having missinterpreted the situation, I walked with Patrick and Ralph to their meeting place before going to the right location.
+Later I went to the party, but having misinterpreted the situation, I walked with Patrick and Ralph to their meeting place before going to the right location.
 Walking with Patrick and Ralph has been very interesting.
 
 The party was very nice and it allowed me to talk with very interesting people.

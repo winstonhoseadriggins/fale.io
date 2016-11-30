@@ -18,4 +18,4 @@ This was still pending because this year we were not able to meet at the usual F
 Being so close to such big event, we had three very welcomed guests (aka non EMEA Ambassadors): Noriko, Remi DeCausemaker and Matthew Miller.
 Matthew Miller replicated his morning talk (very briefly), and then we started to speak specifically about the EMEA Ambassadors budget and future events.
 
-We ended pretty late and startet to look for food, but everything was closed due to the late hour, but a nice pizza place where we ended up eating.
+We ended pretty late and started to look for food, but everything was closed due to the late hour, but a nice pizza place where we ended up eating.
