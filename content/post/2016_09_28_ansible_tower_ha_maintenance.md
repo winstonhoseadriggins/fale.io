@@ -1,5 +1,5 @@
 ---
-date: "2016-11-05T09:00:00+00:00"
+date: "2016-09-28T09:00:00+00:00"
 categories: [ "Ansible" ]
 aggregators: [ "Fedora", "KDE" ]
 title: "Ansible Tower High Availability maintenance"
