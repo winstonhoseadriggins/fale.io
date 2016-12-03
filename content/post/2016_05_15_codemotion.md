@@ -1,9 +1,16 @@
 ---
-date: "2016-05-15T09:00:00+01:00"
-categories: [ "Events" ]
-aggregators: [ "Fedora", "KDE" ]
-places: [ "Amsterdam, Netherlands" ]
-title: "Codemotion"
+date: 2016-05-15
+categories:
+  - Events
+aggregators:
+  - Fedora
+  - KDE
+location:
+  address: Gedempt Hamerkanaal 231
+  city: Amsterdam
+  zip: 1021 KP
+  country: NL
+title: Codemotion
 ---
 
 In the last few days I've been at the CodeMotion Amsterdam 2016.

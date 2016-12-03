@@ -1,8 +1,18 @@
 ---
-date: "2016-01-27T09:00:00+02:00"
-categories: [ "Linux", "Fedora", "EPEL", "RHEL", "CentOS", "CLI", "AWS" ]
-aggregators: [ "Fedora" ]
-title: "The AWS tools are approaching EPEL7"
+date: 2016-01-27
+tags:
+  - EPEL
+  - RHEL
+  - CentOS
+categories:
+  - Linux
+  - Fedora
+  - Enterprise Linux
+  - CLI
+  - AWS
+aggregators:
+  - Fedora
+title: The AWS tools are approaching EPEL7
 ---
 
 A couple of weeks ago, I've announced the [availability of AWS tools for Fedora]({{< ref "post/2016_01_16_aws_tools_in_fedora.md" >}}).

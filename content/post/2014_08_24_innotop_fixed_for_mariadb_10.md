@@ -1,7 +1,7 @@
 ---
 date: "2014-08-24T18:43:00+02:00"
 tags: [ "Innotop", "MySQL", "MariaDB" ]
-categories: [ "Database", "CLI" ]
+categories: [ "Database", "CLI", "Fedora", "Enterprise Linux" ]
 aggregators: [ "Fedora" ]
 title: "Innotop fixed for MariaDB 10"
 ---

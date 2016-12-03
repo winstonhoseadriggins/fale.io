@@ -1,9 +1,21 @@
 ---
-date: "2016-02-05T09:00:00+02:00"
-categories: [ "Linux", "DevConf", "Fedora", "Red Hat", "Events" ]
-aggregators: [ "Fedora", "KDE" ]
-places: [ "Brno, Czech Republic" ]
-title: "DevConf - day 1"
+date: 2016-02-05
+tags:
+  - DevConf
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+aggregators:
+  - Fedora
+  - KDE
+location:
+  address: Božetěchova 1/2
+  zip: 612 66
+  city: Brno
+  country: CZ
+title: DevConf - day 1
 ---
 
 This morning things started in the right way.

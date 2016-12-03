@@ -1,6 +1,6 @@
 ---
 date: "2014-08-24T13:23:00+02:00"
-categories: [ "Blog" ]
+categories: [ "Life", "Fedora" ]
 aggregators: [ "Fedora" ]
 title: "Hello Planet Fedora"
 ---

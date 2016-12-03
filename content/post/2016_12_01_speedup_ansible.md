@@ -1,8 +1,11 @@
 ---
-date: "2016-12-01T09:00:00+00:00"
-categories: [ "Ansible" ]
-aggregators: [ "Fedora", "KDE" ]
-title: "Speedup Ansible"
+date: 2016-12-01
+categories:
+  - Ansible
+aggregators:
+  - Fedora
+  - KDE
+title: Speedup Ansible
 ---
 The single most frequent complain I hear about Ansible is about it's slowness.
 This is very common, but even more common among people that used to use Puppet.

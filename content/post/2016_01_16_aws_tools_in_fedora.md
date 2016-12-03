@@ -1,8 +1,13 @@
 ---
-date: "2016-01-16T09:00:00+02:00"
-categories: [ "Linux", "Fedora", "CLI", "AWS" ]
-aggregators: [ "Fedora" ]
-title: "The AWS tools are approaching Fedora"
+date: 2016-01-16
+categories:
+  - Linux
+  - Fedora
+  - CLI
+  - AWS
+aggregators:
+  - Fedora
+title: The AWS tools are approaching Fedora
 ---
 In the last few weeks I've worked toward bringing the Amazon Web Services tools in Fedora. The three AWS tools that are coming in the next few days in Fedora are:
 
@@ -25,4 +30,4 @@ I'm working to bring those packages to EL (RHEL/CentOS/Scientific Linux/Oracle L
 I'm also working to make **aws-shell** available as well.
 This is proving pretty difficult since at the moment it requires **python-prompt_toolkit** 0.52, while in Fedora we provide 0.57.
 I've tried to ask upstream to fix this, but they seem not very responsive.
-This is probably linked to the fact that **aws-shell** is published in the awslabs GitHub account instead of the official aws account, so it's still an evaluation.
+This is probably linked to the fact that **aws-shell** is published in the `awslabs` GitHub account instead of the official `aws` account, so it's still an evaluation.

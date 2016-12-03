@@ -1,9 +1,21 @@
 ---
-date: "2016-02-07T09:00:00+02:00"
-categories: [ "Linux", "DevConf", "Fedora", "Red Hat", "Events" ]
-aggregators: [ "Fedora", "KDE" ]
-places: [ "Brno, Czech Republic" ]
-title: "DevConf - day 3"
+date: 2016-02-07
+tags:
+  - DevConf
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+aggregators:
+  - Fedora
+  - KDE
+location:
+  address: Božetěchova 1/2
+  zip: 612 66
+  city: Brno
+  country: CZ
+title: DevConf - day 3
 ---
 
 Today there were a lot of Fedora talks and sadly I was not able to see them all since there were two Fedora tracks.
