@@ -14,6 +14,7 @@ title:
   it: RPM, un vecchio ma sempre rilevante metodo per gestire software
 url: http://www.smau.it/milano16/schedules/rpm-un-vecchio-ma-sempre-rilevante-metodo-per-gestire-software
 artifacts:
-  slides: https://slides.fale.io/20161026-en-rpm.pdf
+  - name: slides
+    url: https://slides.fale.io/20161026-en-rpm.pdf
 tags:
-- rpm
+  - rpm

@@ -14,7 +14,8 @@ title:
   it: Fedora, da una community a un sistema operativo
 url: http://www.smau.it/milano16/schedules/fedora-da-una-community-a-un-sistema-operativo
 artifacts:
-  slides: https://slides.fale.io/20161027-en-fedora.pdf
+  - name: slides
+    url: https://slides.fale.io/20161027-en-fedora.pdf
 tags:
-- fedora
-- linux
+  - fedora
+  - linux

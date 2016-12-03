@@ -14,7 +14,8 @@ title:
   it: Quando e perchè rilasciare codice open source è un vantaggio per l'azienda stessa
 url: http://www.smau.it/milano16/schedules/quando-e-perche-rilasciare-codice-open-source-e-un-vantaggio-per-lazienda-stessa
 artifacts:
-  slides: https://slides.fale.io/20161027-en-floss_economy.pdf
+  - name: slides
+    url: https://slides.fale.io/20161027-en-floss_economy.pdf
 tags:
-- floss
-- economy
+  - floss
+  - economy

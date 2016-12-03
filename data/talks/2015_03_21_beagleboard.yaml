@@ -14,7 +14,7 @@ title:
   it: Sperimentare con la BeagleBoard
 url: https://viglug.org/docs/2015_elettronica_libera.pdf
 tags:
-- Open Hardware
-- BleagleBoard
-- Linux
-- FLOSS
+  - Open Hardware
+  - BleagleBoard
+  - Linux
+  - FLOSS

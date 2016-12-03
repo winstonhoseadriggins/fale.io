@@ -10,15 +10,16 @@ language: it
 type: panel
 length: 180
 cospeaker:
-- Simone Aliprandi
-- Riccardo Samà
-- Flavio Spada
-- Andrea Mangiatordi
+  - Simone Aliprandi
+  - Riccardo Samà
+  - Flavio Spada
+  - Andrea Mangiatordi
 title:
   en: The adoption of GNU/Linux in the organizations
   it: L'adozione di GNU/Linux nelle organizzazioni
 url: http://brigx.it/evento/linuxday2016-brianza
 artifacts:
-  slides: https://slides.fale.io/20161022-it-linux.pdf
+  - name: slides
+    url: https://slides.fale.io/20161022-it-linux.pdf
 tags:
-- linux
+  - linux

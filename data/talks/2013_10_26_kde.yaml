@@ -14,8 +14,9 @@ title:
   it: KDE
 url: https://viglug.org/docs/2013_linux_day.pdf
 artifacts:
-  video: https://www.youtube.com/watch?v=NWj2DxrUYVM
+  - name: video
+    url: https://www.youtube.com/watch?v=NWj2DxrUYVM
 tags:
-- KDE
-- Open Source
-- Desktop Environment
+  - KDE
+  - Open Source
+  - Desktop Environment

@@ -14,6 +14,7 @@ title:
   it: Automatizzare l'IT con Ansible 
 url: http://www.smau.it/milano16/schedules/automatizzare-lit-con-ansible
 artifacts:
-  slides: https://slides.fale.io/20161025-en-ansible.pdf
+  - name: slides
+    url: https://slides.fale.io/20161025-en-ansible.pdf
 tags:
-- ansible
+  - ansible

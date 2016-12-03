@@ -14,7 +14,8 @@ title:
   it: Open Street Map
 url: https://viglug.org/docs/2013_linux_day.pdf
 artifacts:
-  video: https://www.youtube.com/watch?v=MWzd7csv4DE
+  - name: video
+    url: https://www.youtube.com/watch?v=MWzd7csv4DE
 tags:
-- Open Street Map
-- Free Maps
+  - Open Street Map
+  - Free Maps

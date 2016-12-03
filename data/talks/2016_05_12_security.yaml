@@ -13,6 +13,7 @@ title:
   en: If security is hard, you are doing it wrong
 url: http://amsterdam2016.codemotionworld.com/wp-content/themes/event/detail-talk.php?detail=2852
 artifacts:
-  video: https://www.youtube.com/watch?v=aRhrpzLUlD4
+  - name: video
+    url: https://www.youtube.com/watch?v=aRhrpzLUlD4
 tags:
-- security
+  - security

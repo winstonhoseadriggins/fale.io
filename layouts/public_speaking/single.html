@@ -39,14 +39,7 @@
             {{ range $.Site.Data.talks }}
                 <li>{{ dateFormat "2006" .date }} - {{ .event }} ({{ .location.city }}, {{ .location.country }}) - {{ .title.en }}
                 {{ if .artifacts }}
-                    (
-                    {{ if .artifacts.video }}
-                        <a href="{{ .artifacts.video }}">video</a>
-                    {{ end }}
-                    {{ if .artifacts.slides }}
-                        <a href="{{ .artifacts.slides }}">slides</a>
-                    {{ end }}
-                    )
+                    ({{ range $i, $a := .artifacts }}{{ if gt $i 0 }}, {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }})
                 {{ end }}
                 </li>
             {{ end }}

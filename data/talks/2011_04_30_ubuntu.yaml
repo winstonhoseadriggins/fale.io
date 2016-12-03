@@ -10,11 +10,11 @@ language: it
 type: talk
 length: 45
 cospeaker:
-- Giuseppe Bruno de Luca
+  - Giuseppe Bruno de Luca
 title:
   en: Ubuntu
   it: Ubuntu
 url: https://viglug.org/docs/2011_linux_installation_party.pdf
 tags:
-- Ubuntu
-- Free software
+  - Ubuntu
+  - Free software

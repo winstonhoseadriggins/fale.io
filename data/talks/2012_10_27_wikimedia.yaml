@@ -14,7 +14,8 @@ title:
   it: Wikimedia Foundation
 url: https://viglug.org/docs/2012_linux_day.pdf
 artifacts:
-  video: https://www.youtube.com/watch?v=ds_L16KTU_Q
+  - name: video
+    url: https://www.youtube.com/watch?v=ds_L16KTU_Q
 tags:
-- Wikimedia
-- Free Knowledge
+  - Wikimedia
+  - Free Knowledge

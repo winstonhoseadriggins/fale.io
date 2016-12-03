@@ -13,7 +13,9 @@ title:
   en: A year managing the Italian Fedora Community
 url: https://flock2016.sched.org/event/76np/a-year-managing-the-italian-fedora-community 
 artifacts:
-  video: https://www.youtube.com/watch?v=dFLyJIz1qNw
-  slides: https://fale.fedorapeople.org/slides/2016_08_02_flock_fedora_italian_comunity.pdf
+  - name: video
+    url: https://www.youtube.com/watch?v=dFLyJIz1qNw
+  - name: slides
+    url: https://fale.fedorapeople.org/slides/2016_08_02_flock_fedora_italian_comunity.pdf
 tags:
-- fedora
+  - fedora

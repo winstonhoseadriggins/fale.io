@@ -14,6 +14,7 @@ title:
   it: Come pacchettizzare applicazioni in formato RPM
 url: http://www.smau.it/milano16/schedules/come-pacchettizzare-applicazioni-in-formato-rpm
 artifacts:
-  slides: https://slides.fale.io/20161026-en-rpm-ws.pdf
+  - name: slides
+    url: https://slides.fale.io/20161026-en-rpm-ws.pdf
 tags:
-- rpm
+  - rpm

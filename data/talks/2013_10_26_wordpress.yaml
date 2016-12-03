@@ -14,7 +14,8 @@ title:
  it: WordPress
 url: https://viglug.org/docs/2013_linux_day.pdf
 artifacts:
-  video: https://www.youtube.com/watch?v=S8grw0WX-mw
+  - name: video
+    url: https://www.youtube.com/watch?v=S8grw0WX-mw
 tags:
  - Web
  - PHP

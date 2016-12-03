@@ -13,7 +13,9 @@ title:
   en: Automating your infrastructure with Ansible
 url: https://www.meetup.com/Linuxing-In-London/events/235269064/
 artifacts:
-  slides: https://slides.fale.io/20161129-en-ansible.pdf
-  video: https://skillsmatter.com/skillscasts/8226-linuxing-in-london?tc=4091d1
+  - name: slides
+    url: https://slides.fale.io/20161129-en-ansible.pdf
+  - name: video
+    url: https://skillsmatter.com/skillscasts/8226-linuxing-in-london?tc=4091d1
 tags:
-- ansible
+  - ansible

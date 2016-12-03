@@ -14,5 +14,5 @@ title:
   it: Fedora 23
 url: 'https://fedoraproject.org/wiki/Release_Party_F23_Milan'
 tags:
-- Fedora
-- Release Party
+  - Fedora
+  - Release Party
