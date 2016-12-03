@@ -3,7 +3,7 @@ title: "About"
 no_comments: true
 ---
 
-Fabio Alessandro Locati is a Senior Consultant at Red Hat, public speaker, entrepreneur, author and Open Source contributor.
+Fabio Alessandro (Fale) Locati is a Senior Consultant at Red Hat, public speaker, entrepreneur, author and Open Source contributor.
 His main areas of expertise are Linux, security, cloud technologies, databases, networking, and data centres.
 
 With more than 10 years of working experience in the field, he has experienced different IT roles, technologies, and languages.
