@@ -2,6 +2,8 @@
 date: 2016-12-01
 categories:
   - Ansible
+tags:
+  - Performances
 aggregators:
   - Fedora
   - KDE
