@@ -9,7 +9,6 @@ googleAnalytics: UA-62427039-3
 permalinks:
   post: /blog/:year/:month/:day/:title/
 params:
-  Subtitle: Spinning the cogs in the widgets
   Author: Fabio Alessandro Locati
   Email: me@fale.io
   GitHubUser: fale
