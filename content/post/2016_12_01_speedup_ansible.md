@@ -1,13 +1,13 @@
 ---
 date: 2016-12-01
+title: Speedup Ansible
+aggregators:
+  - Fedora
+  - KDE
 categories:
   - Ansible
 tags:
   - Performances
-aggregators:
-  - Fedora
-  - KDE
-title: Speedup Ansible
 ---
 The single most frequent complain I hear about Ansible is about it's slowness.
 This is very common, but even more common among people that used to use Puppet.

@@ -1,13 +1,13 @@
 ---
-date: 2016-12-16
+date: 2016-12-13
+title: Avoid Ansible Galaxy (as default option)
+aggregators:
+  - Fedora
+  - KDE
 categories:
   - Ansible
 tags:
   - Ansible Galaxy
-aggregators:
-  - Fedora
-  - KDE
-title: Avoid Ansible Galaxy (as default option)
 ---
 When I speak with people that are starting with Ansible from Puppet, the first thing they want to experiment is Ansible Galaxy.
 

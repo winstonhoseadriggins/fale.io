@@ -1,11 +1,13 @@
 ---
 date: 2016-09-28
-categories:
-  - Ansible
+title: Ansible Tower High Availability maintenance
 aggregators:
   - Fedora
   - KDE
-title: Ansible Tower High Availability maintenance
+categories:
+  - Ansible
+tags:
+  - Ansible Tower
 ---
 
 In the last few months I've setted up multiple times Ansible Tower, but I've noticed that there is not much documentation on how to perform basic maintenance on Ansible Tower High Availability setup, so I decided to write an article about it.

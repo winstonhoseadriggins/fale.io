@@ -1,16 +1,16 @@
 ---
 date: 2016-05-15
-categories:
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: Codemotion
 location:
   address: Gedempt Hamerkanaal 231
   city: Amsterdam
   zip: 1021 KP
   country: NL
-title: Codemotion
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Events
 ---
 
 In the last few days I've been at the CodeMotion Amsterdam 2016.

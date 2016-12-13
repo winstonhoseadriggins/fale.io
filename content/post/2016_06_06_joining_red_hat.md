@@ -1,12 +1,12 @@
 ---
 date: 2016-06-06
-categories:
-  - Life
-  - Red Hat
+title: Joining Red Hat
 aggregators:
   - Fedora
   - KDE
-title: Joining Red Hat
+categories:
+  - Life
+  - Red Hat
 ---
 
 After more than 12 years as a freelance consultant, today I start a new adventure within Red Hat.
