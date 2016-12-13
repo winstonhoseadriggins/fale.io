@@ -11,7 +11,7 @@ tags:
 ---
 When I speak with people that are starting with Ansible from Puppet, the first thing they want to experiment is Ansible Galaxy.
 
-This leaves me very skeptical, since I think the default mode in Ansible should be DIY.
+This leaves me very sceptical, since I think the default mode in Ansible should be DIY.
 Since I've found myself in this situation far to many times, I decided to write down all the reasons why you should avoid Ansible Galaxy in the majority of situations.
 
 1. Using Ansible Galaxy often violates the ***Ansible way***.
