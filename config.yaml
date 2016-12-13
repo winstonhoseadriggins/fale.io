@@ -27,7 +27,7 @@ taxonomies:
   tag: tags
   category: categories
   aggregator: aggregators
-  place: places
+  location: locations
 menu:
   social:
     - name: Facebook
