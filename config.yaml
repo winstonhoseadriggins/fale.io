@@ -1,53 +1,55 @@
-baseurl: "http://fale.io"
-contentdir: "content"
-publishdir: "public"
-languageCode: "en"
-title: "Fabio Alessandro Locati"
-disqusShortname: "fabiolocati"
+baseurl: http://fale.io
+contentdir: content
+publishdir: public
+languageCode: en
+title: Fabio Alessandro Locati
+disqusShortname: fabiolocati
 theme: bootstrap2hugo
-googleAnalytics: 'UA-62427039-3'
+googleAnalytics: UA-62427039-3
 permalinks:
   post: /blog/:year/:month/:day/:title/
 params:
-  Subtitle: "Spinning the cogs in the widgets"
-  Author: "Fabio Alessandro Locati"
-  Email: "me@fale.io"
-  GitHubUser: "fale"
+  Subtitle: Spinning the cogs in the widgets
+  Author: Fabio Alessandro Locati
+  Email: me@fale.io
+  GitHubUser: fale
   SidebarRecentLimit: 5
-  LanguageCode: "en"
-  Locale: "en_US"
-  Subtitle: 'Fabio Alessandro Locati (fale) personal website'
-  Copyright: 'Fabio Alessandro Locati'
+  LanguageCode: en
+  Locale: en_GB
+  Subtitle: Fabio Alessandro Locati (fale) personal website
+  Copyright: Fabio Alessandro Locati
   LaunchYear: 2011
-  PoweredByHugo: 'True'
-  TaxonomiesInSidebar: [ 'categories', 'tags' ]
+  PoweredByHugo: True
+  TaxonomiesInSidebar:
+    - categories
+    - tags
 taxonomies:
-  tag: "tags"
-  category: "categories"
-  aggregator: "aggregators"
-  place: "places"
+  tag: tags
+  category: categories
+  aggregator: aggregators
+  place: places
 menu:
   social:
     - name: Facebook
       pre: '<i class="fa fa-fw fa-facebook-square"></i>'
-      url: 'https://facebook.com/fabiolocati/'
+      url: https://facebook.com/fabiolocati
     - name: GitHub
       pre: '<i class="fa fa-fw fa-github-square"></i>'
-      url: 'https://github.com/fale'
+      url: https://github.com/fale
     - name: Google Plus
       pre: '<i class="fa fa-fw fa-google-plus-square"></i>'
-      url: 'https://plus.google.com/u/0/+FabioAlessandroLocati/posts'
+      url: https://plus.google.com/+FabioAlessandroLocati
     - name: Keybase
       pre: '<i class="fa fa-fw fa-key"></i>'
-      url: 'https://keybase.io/fale'
+      url: https://keybase.io/fale
     - name: LinkedIN
       pre: '<i class="fa fa-fw fa-linkedin-square"></i>'
-      url: 'https://uk.linkedin.com/in/fabiolocati'
+      url: https://linkedin.com/in/fabiolocati
     - name: Twitter
       pre: '<i class="fa fa-fw fa-twitter-square"></i>'
-      url: 'https://twitter.com/f4l3'
+      url: https://twitter.com/f4l3
   top:
     - name: Public Speaking
-      url: '/public_speaking'
+      url: /public_speaking
     - name: About
-      url: '/about'
+      url: /about
