@@ -1,18 +1,18 @@
 ---
 date: 2016-01-27
-tags:
-  - EPEL
-  - RHEL
-  - CentOS
+title: The AWS tools are approaching EPEL7
+aggregators:
+  - Fedora
 categories:
   - Linux
   - Fedora
   - Enterprise Linux
   - CLI
   - AWS
-aggregators:
-  - Fedora
-title: The AWS tools are approaching EPEL7
+tags:
+  - EPEL
+  - RHEL
+  - CentOS
 ---
 
 A couple of weeks ago, I've announced the [availability of AWS tools for Fedora]({{< ref "post/2016_01_16_aws_tools_in_fedora.md" >}}).
@@ -23,15 +23,16 @@ As you can imagine, the **7** stays for the version, so only the version 7.x of 
 
 If you want to try, you need to have the EPEL repository installed. If you don't have EPEL repository or you aren't sure about it, you can install it running as root:
 
-``` bash
+~~~bash
 yum install epel-testing
-```
+~~~
 
 And then you can install the AWS tools issuing the following command as root:
 
-``` bash
+~~~bash
 yum install awscli boto3
-```
+~~~
+
 This will install you the following three programs:
 
 * **botocore**: a low level Python library to interact with Amazon Web Services APIs

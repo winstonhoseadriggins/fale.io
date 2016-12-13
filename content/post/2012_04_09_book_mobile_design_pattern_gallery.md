@@ -1,8 +1,14 @@
 ---
-date: "2012-04-09T09:00:00+02:00"
-tags: [ "Book", "Mobile", "UI", "Design" ]
-categories: [ "Review", "Programming" ]
-title: "Mobile Design Pattern Gallery by Theresa Neil, O'Reilly"
+date: 2012-04-09
+title: Mobile Design Pattern Gallery by Theresa Neil, O'Reilly
+categories:
+  - Review
+  - Programming
+tags:
+  - Book
+  - Design
+  - Mobile
+  - UI
 ---
 <img class="alignleft" title="cover" src="http://akamaicovers.oreilly.com/images/9781449314323/cat.gif" alt="" width="180" height="236" />
 
@@ -24,10 +30,10 @@ The book is clearly organized, each chapter covering one specific aspect.
 * Anti-patterns
 
 After a little while, I learned how to learn (a lot of) good patterns and bad patterns (anti-patterns) from this book.
-The downside of the approach the author kept is that all the arguments are not deeply analyzed, while the main information are given.
+The downside of the approach the author kept is that all the arguments are not deeply analysed, while the main information are given.
 For each topic, Neil shows some patterns pointing out for each one a good use of it and the possible risks using it.
 The last chapter (the one about the anti-patterns) is, in my opinion, the most useful.
-Here some anti-patterns are analyzed pointing out why they are anti-patterns and how to improve them.
+Here some anti-patterns are analysed pointing out why they are anti-patterns and how to improve them.
 
 The only problem I've seen in some points is the phenomenon in which sometimes the image is one page and the caption in another and this is annoying.
 

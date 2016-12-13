@@ -1,21 +1,21 @@
 ---
 date: 2016-02-07
-tags:
-  - DevConf
-categories:
-  - Linux
-  - Fedora
-  - Red Hat
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: DevConf - day 3
 location:
   address: Božetěchova 1/2
   zip: 612 66
   city: Brno
   country: CZ
-title: DevConf - day 3
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+tags:
+  - DevConf
 ---
 
 Today there were a lot of Fedora talks and sadly I was not able to see them all since there were two Fedora tracks.

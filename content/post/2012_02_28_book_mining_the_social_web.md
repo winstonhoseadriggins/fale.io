@@ -1,8 +1,12 @@
 ---
-date: "2012-02-28T09:00:00+02:00"
-tags: [ "Book", "Social Networks" ]
-categories: [ "Review", "Web" ]
-title: "Mining the Social Web by Matthew Russell, O'Reilly"
+date: 2012-02-28
+title: Mining the Social Web by Matthew Russell, O'Reilly
+categories:
+  - Review
+  - Web
+tags:
+  - Book
+  - Social Networks
 ---
 <img class="alignleft" title="Cover" src="http://akamaicovers.oreilly.com/images/9781449388348/cat.gif" alt="" width="180" height="236" />
 

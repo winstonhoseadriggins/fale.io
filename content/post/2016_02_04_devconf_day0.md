@@ -1,21 +1,21 @@
 ---
 date: 2016-02-04
-tags:
-  - DevConf
-categories:
-  - Linux
-  - Fedora
-  - Red Hat
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: DevConf - day 0
 location:
   address: Božetěchova 1/2
   zip: 612 66
   city: Brno
   country: CZ
-title: DevConf - day 0
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+tags:
+  - DevConf
 ---
 
 Few days past from FOSDEM and I'm at yet another conference :).

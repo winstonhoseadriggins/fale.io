@@ -1,8 +1,12 @@
 ---
-date: "2012-04-17T09:00:00+02:00"
-tags: [ "Book", "jQuery" ]
-categories: [ "Review", "Programming" ]
-title: "jQuery UI by Eric Sarrion, O'Reilly"
+date: 2012-04-17
+title: jQuery UI by Eric Sarrion, O'Reilly
+categories:
+  - Review
+  - Programming
+tags:
+  - Book
+  - jQuery
 ---
 <img class="alignleft" title="jQueryUI" src="http://akamaicovers.oreilly.com/images/9781449316990/cat.gif" alt="" width="180" height="236" />
 

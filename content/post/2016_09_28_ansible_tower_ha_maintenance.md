@@ -26,7 +26,9 @@ After the install is completed, copy the Ansible Tower configurations from a mac
 
 Restart the Ansible Tower services on the newly created machine to ensure that the proper configuration gets picked up, utilizing:
 
-    ansible-tower-service restart
+~~~bash
+ansible-tower-service restart
+~~~
 
 At this point, the machine should be part of the cluster and working properly.
 
@@ -34,13 +36,17 @@ At this point, the machine should be part of the cluster and working properly.
 There are cases where a Secondary Tower needs to be removed from the cluster.
 To do so, execute the following command on a machine that is part of the Ansible Tower Cluster:
 
-    tower-manage remove_instance --hostname HOSTHERE
+~~~bash
+tower-manage remove_instance --hostname HOSTHERE
+~~~
 
 Even if a machine died, is very important to remove it from the cluster so that the Ansible Tower Cluster configuration is kept clean and functional.
 
 ## Promote a Secondary Ansible Tower instance to become Primary
 To promote a Secondary instance to Primary, execute the following command on a machine that is part of the Ansible Tower Cluster:
 
-    tower-manage update_instance --primary --hostname HOSTHERE
+~~~bash
+tower-manage update_instance --primary --hostname HOSTHERE
+~~~
 
 The Primary machine will automatically be demoted to Secondary when a new machine becomes Primary.

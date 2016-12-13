@@ -1,21 +1,21 @@
 ---
 date: 2016-02-06
-tags:
-  - DevConf
-categories:
-  - Linux
-  - Fedora
-  - Red Hat
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: DevConf - day 2
 location:
   address: Božetěchova 1/2
   zip: 612 66
   city: Brno
   country: CZ
-title: DevConf - day 2
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+tags:
+  - DevConf
 ---
 
 Today I spent the morning looking at very interesting sessions mainly about containers.

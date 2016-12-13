@@ -1,21 +1,21 @@
 ---
 date: 2016-02-08
-tags:
-  - DevConf
-categories:
-  - Linux
-  - Fedora
-  - Red Hat
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: DevConf - day 4
 location:
   address: Božetěchova 1/2
   zip: 612 66
   city: Brno
   country: CZ
-title: DevConf - day 4
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+tags:
+  - DevConf
 ---
 
 My last day at Brno has come, and I took the bus to Wien Airport, where I later got a plane to Milan.

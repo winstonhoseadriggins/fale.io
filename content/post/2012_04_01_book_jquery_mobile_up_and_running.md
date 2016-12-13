@@ -1,8 +1,13 @@
 ---
-date: "2012-04-01T09:00:00+02:00"
-tags: [ "Book", "jQuery" ]
-categories: [ "Review", "Web", "Programming" ]
+date: 2012-04-01
 title: "jQuery Mobile: Up and Running by Maximiliano Firtman, O'Reilly"
+categories:
+  - Review
+  - Web
+  - Programming
+tags:
+  - Book
+  - jQuery
 ---
 <img class="alignleft" title="Book" src="http://akamaicovers.oreilly.com/images/9781449397654/cat.gif" alt="" width="180" height="236" />
 

@@ -1,21 +1,21 @@
 ---
 date: 2016-02-05
-tags:
-  - DevConf
-categories:
-  - Linux
-  - Fedora
-  - Red Hat
-  - Events
-aggregators:
-  - Fedora
-  - KDE
+title: DevConf - day 1
 location:
   address: Božetěchova 1/2
   zip: 612 66
   city: Brno
   country: CZ
-title: DevConf - day 1
+aggregators:
+  - Fedora
+  - KDE
+categories:
+  - Linux
+  - Fedora
+  - Red Hat
+  - Events
+tags:
+  - DevConf
 ---
 
 This morning things started in the right way.

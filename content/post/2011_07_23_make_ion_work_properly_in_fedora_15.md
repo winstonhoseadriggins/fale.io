@@ -1,9 +1,12 @@
 ---
-date: "2012-07-23T09:00:00+02:00"
-tags: [ "nVidia ION" ]
-categories: [ "Fedora" ]
-aggregators: [ "Fedora" ]
-title: "Make ION work properly in Fedora 15"
+date: 2012-07-23
+title: Make ION work properly in Fedora 15
+aggregators:
+  - Fedora
+categories:
+  - Fedora
+tags:
+  - nVidia ION
 ---
 The EeePc 1015PN, at least the European version, comes with these two video cards:
 

@@ -1,15 +1,16 @@
 ---
 date: 2016-01-16
+title: The AWS tools are approaching Fedora
+aggregators:
+  - Fedora
 categories:
   - Linux
   - Fedora
   - CLI
   - AWS
-aggregators:
-  - Fedora
-title: The AWS tools are approaching Fedora
 ---
-In the last few weeks I've worked toward bringing the Amazon Web Services tools in Fedora. The three AWS tools that are coming in the next few days in Fedora are:
+In the last few weeks I've worked toward bringing the Amazon Web Services tools in Fedora.
+The three AWS tools that are coming in the next few days in Fedora are:
 
 * **botocore**: a low level Python library to interact with Amazon Web Services APIs
 * **boto3**: a high level Python library to interact with Amazon Web Services APIs
