@@ -17,7 +17,7 @@ On the exam topic, I have to advice that the book does cover any exam objective,
 The organization of the book seems really reasonable to me.
 The first chapter will help you to install and configure correctly Windows Server 2012.
 The second chapter will help you to configure users and roles.
-The third chapter speaks about virtualization.
+The third chapter speaks about virtualisation.
 The forth chapter is about networking and the fifth about Active Directory.
 The sixth and last chapter deals with Group Policy.
 
