@@ -1,8 +1,12 @@
 ---
-date: "2012-04-19T09:00:00+02:00"
-tags: [ "Book" ]
-categories: [ "Review", "Linux", "CLI" ]
-title: "Linux Pocket Guide by Daniel J. Barrett, O'Reilly"
+date: 2012-04-19
+title: Linux Pocket Guide by Daniel J. Barrett, O'Reilly
+categories:
+  - CLI
+  - Linux
+  - Review
+tags:
+  - Book
 ---
 <img class="alignleft" title="book" src="http://akamaicovers.oreilly.com/images/9781449316693/cat.gif" alt="" width="180" height="296" />
 

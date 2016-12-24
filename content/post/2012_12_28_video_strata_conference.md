@@ -1,8 +1,14 @@
 ---
-date: "2012-12-28T09:00:00+02:00"
-tags: [ "Video", "Database", "Hadoop", "O'Reilly Media" ]
-categories: [ "Review", "Big Data" ]
+date: 2012-12-28
 title: "Strata Conference New York + Hadoop World 2012: Complete Video Compilation by O'Reilly Media, Inc."
+tags:
+  - Database
+  - Hadoop
+  - O'Reilly Media
+  - Video
+categories:
+  - Review
+  - Big Data
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/0636920028611/cat.gif" width="180" height="277" />
 
