@@ -1,8 +1,15 @@
 ---
-date: "2013-01-03T09:00:00+02:00"
-title: "How to send an e-mail with attachment from the command line"
-categories: [ "Linux", "CLI", "Programming" ]
-tags: [ "Mails", "Attachments", "Shell", "UNIX" ]
+date: 2013-01-03
+title: How to send an e-mail with attachment from the command line
+categories:
+  - Linux
+  - CLI
+  - Programming
+tags:
+  - Mails
+  - Attachments
+  - Shell
+  - UNIX
 ---
 <img class="alignleft  wp-image-1092" alt="konsole" src="http://fabiolocati.com/wp-content/uploads/2013/01/konsole-300x300.png" width="180" height="180" />
 
