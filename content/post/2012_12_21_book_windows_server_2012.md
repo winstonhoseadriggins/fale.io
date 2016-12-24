@@ -1,8 +1,13 @@
 ---
-date: "2012-12-21T09:00:00+02:00"
-tags: [ "Book", "Microsoft", "Windows", "Windows Server" ]
-categories: [ "Review" ]
-title: "Exam Ref 70-410: Installing and Configuring Windows Server 2012 by Craig Zacker, Microsoft Press"
+date: 2012-12-21
+title: 'Exam Ref 70-410: Installing and Configuring Windows Server 2012 by Craig Zacker, Microsoft Press'
+categories:
+  - Review
+tags:
+  - Book
+  - Microsoft
+  - Windows
+  - Windows Server
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735673168/cat.gif" width="180" height="220" />
 

@@ -1,8 +1,12 @@
 ---
-date: "2012-05-19T09:00:00+02:00"
-tags: [ "Book", "PhoneGap" ]
-categories: [ "Review", "Programming" ]
-title: "20 Recipes for Programming PhoneGap by Jamie Munro, O'Reilly"
+date: 2012-05-19
+title: 20 Recipes for Programming PhoneGap by Jamie Munro, O'Reilly
+categories:
+  - Programming
+  - Review
+tags:
+  - Book
+  - PhoneGap
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449319540/cat.gif" width="180" height="236" />
 
