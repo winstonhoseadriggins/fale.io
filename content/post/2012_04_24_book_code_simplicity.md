@@ -1,8 +1,11 @@
 ---
-date: "2012-04-24T09:00:00+02:00"
-tags: [ "Book" ]
-categories: [ "Review", "Programming" ]
-title: "Code Simplicity by Max Kanat-Alexander, O'Reilly"
+date: 2012-04-24
+title: Code Simplicity by Max Kanat-Alexander, O'Reilly
+categories:
+  - Review
+  - Programming
+tags:
+  - Book
 ---
 <img class="alignleft" title="cover" src="http://akamaicovers.oreilly.com/images/9781449313890/cat.gif" alt="" width="180" height="236" />
 
