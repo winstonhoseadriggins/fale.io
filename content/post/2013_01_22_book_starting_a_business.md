@@ -1,8 +1,12 @@
 ---
-date: "2013-01-22T09:00:15+02:00"
-tags: [ "Book", "Business", "Nova Vista Publishing" ]
-categories: [ "Review" ]
-title: "Starting a Business Learn What You Need in Two Hours By Scott L. Girard Jr., Michael F. O'Keefe, Marc A. Price (Nova Vista Publishing)"
+date: 2013-01-22
+title: Starting a Business Learn What You Need in Two Hours By Scott L. Girard Jr., Michael F. O'Keefe, Marc A. Price (Nova Vista Publishing)
+categories:
+  - Review
+tags:
+  - Book
+  - Business
+  - Nova Vista Publishing
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781457168314/cat.gif" width="180" height="251" />When I've seen this book I had no idea about what I was going to find inside it.
 

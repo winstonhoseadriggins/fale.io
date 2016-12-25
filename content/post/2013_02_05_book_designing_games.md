@@ -1,8 +1,12 @@
 ---
-date: "2013-02-05T09:00:15+02:00"
-tags: [ "Book", "Games", "O'Reilly Media" ]
-categories: [ "Review" ]
-title: "Designing Games - A Guide to Engineering Experiences by Tynan Sylvester (O'Reilly Media)"
+date: 2013-02-05
+title: Designing Games - A Guide to Engineering Experiences by Tynan Sylvester (O'Reilly Media)
+categories:
+  - Review
+tags:
+  - Book
+  - Games
+  - O'Reilly Media
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449337933/cat.gif" width="180" height="270" />
 When I read the first lines of the description *"Ready to give your design skills a real boost? This eye-opening book helps you explore the design structure behind most of today’s hit video games. You’ll learn principles and practices for crafting games that generate emotionally charged experiences—a combination of elegant game mechanics, compelling fiction, and pace that fully immerses players."* on the O'Reilly website I thought it was a very well thought eye-catcher phrase to sell more books. Reading the book I understand that the phrase is 100% truthful.

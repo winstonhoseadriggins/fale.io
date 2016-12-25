@@ -1,8 +1,14 @@
 ---
-date: "2013-01-29T09:00:15+02:00"
-tags: [ "Book", "Certification", "Active Directory", "Microsoft Press" ]
-categories: [ "Review", "Networking" ]
-title: "Exam Ref 70-413: Designing and Implementing a Server Infrastructure by Steve Suehring (Microsoft Press)"
+date: 2013-01-29
+title: 'Exam Ref 70-413: Designing and Implementing a Server Infrastructure by Steve Suehring (Microsoft Press)'
+categories:
+  - Review
+  - Networking
+tags:
+  - Book
+  - Certification
+  - Active Directory
+  - Microsoft Press
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735673670/cat.gif" width="180" height="220" /> I come to this book less than a month after reviewing the [70-410 Exam Ref](http://fabiolocati.com/2012/12/exam-ref-70-410-installing-and-configuring-windows-server-2012-by-craig-zacker).  As the title may suggest, this book is tailored to the preparation of the Microsoft 70-413 exam. Speaking of the exam, I have to advice that the book does cover any exam objective, but does not cover every exam question.
 
