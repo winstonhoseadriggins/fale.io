@@ -1,8 +1,12 @@
 ---
-date: "2013-02-12T09:00:15+02:00"
-tags: [ "Book", "Steampunk", "O'Reilly Media" ]
-categories: [ "Review" ]
-title: "Vintage Tomorrows A Historian And A Futurist Journey Through Steampunk Into The Future of Technology by Brian David Johnson and James H. Carrott (O'Reilly Media)"
+date: 2013-02-12
+title: Vintage Tomorrows A Historian And A Futurist Journey Through Steampunk Into The Future of Technology by Brian David Johnson and James H. Carrott (O'Reilly Media)
+categories:
+  - Review
+tags:
+  - Book
+  - Steampunk
+  - O'Reilly Media
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449355791/rc_cat.gif" width="180" height="270" />
 This book initially shocked me. When I downloaded it, it was a 140 Mb so I thought it was full of drawings and comics. As soon as I opened the file I saw it was nothing I thought it would have been.
