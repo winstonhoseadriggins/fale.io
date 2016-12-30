@@ -1,6 +1,6 @@
 ---
-title: "Public Speaking"
-no_comments: true
+title: Public Speaking
+no_comments: True
 type: public_speaking
 ---
 
