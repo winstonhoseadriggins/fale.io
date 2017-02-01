@@ -1,0 +1,21 @@
+date: 2017-01-27
+sponsor: DevConf.cz
+event: DevConf.ca
+location:
+  address: Božetěchova 1/2
+  city: Brno
+  zip: 612 66
+  country: CZ
+language: en
+type: talk
+length: 50
+title:
+  en: Automating your infrastructure with Ansible
+url: https://devconf.cz/schedule.html
+artifacts:
+  - name: slides
+    url: https://slides.fale.io/20170127-en-ansible.pdf
+  - name: video
+    url: https://www.youtube.com/watch?v=Rz9ZkddACSw
+tags:
+  - ansible
