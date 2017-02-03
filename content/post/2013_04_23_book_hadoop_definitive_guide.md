@@ -1,8 +1,13 @@
 ---
-date: "2013-04-23T09:00:15+02:00"
-tags: [ "Book", "Hadoop", "O'Reilly Media" ]
-categories: [ "Big Data", "Review" ]
+date: 2013-04-23
 title: "Hadoop: The Definitive Guide by Tom White (O'Reilly Media)"
+categories:
+  - Big Data
+  - Review
+tags:
+  - Book
+  - Hadoop
+  - O'Reilly Media
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449311520/cat.gif" width="180" height="220" />Hadoop is today a industry-standard software for the Big Data and this book it's the industry-standard book for Hadoop. This book is able to bring you from no knowledge about Hadoop and the Big Data to a full knowledge of Hadoop and it's usage.
 
