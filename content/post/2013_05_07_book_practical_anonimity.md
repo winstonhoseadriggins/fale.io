@@ -1,8 +1,16 @@
 ---
-date: "2013-05-07T09:00:15+02:00"
-tags: [ "Book", "Anonymity", "Tor", "Elsevier", "Syngress" ]
-categories: [ "Security", "Web", "Review" ]
-title: "Practical Anonymity, by Peter Loshin (Elsevier/Syngress)"
+date: 2013-05-07
+title: Practical Anonymity, by Peter Loshin (Elsevier/Syngress)
+categories:
+  - Review
+  - Security
+  - Web
+tags:
+  - Anonymity
+  - Book
+  - Elsevier
+  - Syngress
+  - Tor
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780124104426/cat.gif" width="180" height="268" />The anonymity on the web is probably one of the most debated topics on the web. Is possible to be completely anonymous? The short answer is no. This book tries to help the read to improve its anonymity, staying is the "real world", as the "Practical" world in the title suggests. In this book you will not find anything that is too complex for an average user.
 
