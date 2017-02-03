@@ -1,8 +1,13 @@
 ---
-date: "2013-05-14T09:00:23+02:00"
-tags: [ "Book", "Elsevier", "Morgan Kaufmann" ]
-categories: [ "Big Data", "Review" ]
+date: 2013-05-14
 title: "Principles of Big Data: Preparing, Sharing, and Analyzing Complex Information by Jules J Berman (Elsevier/Morgan Kaufmann)"
+categories:
+  - Big Data
+  - Review
+tags:
+  - Book
+  - Elsevier
+  - Morgan Kaufmann
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780124047242/cat.gif" width="180" height="221" />As you probably know, I usually do not comment the books layout, being more focused on the contents of a book instead of it's layout.
 
