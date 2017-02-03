@@ -1,8 +1,14 @@
 ---
-date: "2013-04-30T09:00:15+02:00"
-tags: [ "Book", "CompTIA", "Certification", "Microsoft Press" ]
-categories: [ "Security", "Review" ]
-title: "CompTIA Security+ Training Kit (Exam SY0-301) by David Seidl, Mike Chapple, James Michael Stewart (Microsoft Press)"
+date: 2013-04-30
+title: CompTIA Security+ Training Kit (Exam SY0-301) by David Seidl, Mike Chapple, James Michael Stewart (Microsoft Press)
+categories:
+  - Review
+  - Security
+tags:
+  - Book
+  - CompTIA
+  - Certification
+  - Microsoft Press
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735664265/cat.gif" width="180" height="220" />After few months after the review of [CompTIA Security+ Rapid Review](http://fabiolocati.com/2013/01/comptia-security-rapid-review-exam-sy0-301-by-michael-gregg-microsoft-press/), I'm now here to speak about it's bigger brother: the Training kit.
 
