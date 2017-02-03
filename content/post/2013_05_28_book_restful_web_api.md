@@ -1,8 +1,13 @@
 ---
-date: "2013-05-28T09:00:55+02:00"
-tags: [ "Book", "API", "O'Reilly Media" ]
-categories: [ "Web", "Review" ]
-title: "RESTful Web APIs by Leonard Richardson, Mike Amundsen, Sam Ruby (O'Reilly Media)"
+date: 2013-05-28
+title: RESTful Web APIs by Leonard Richardson, Mike Amundsen, Sam Ruby (O'Reilly Media)
+categories:
+  - Web
+  - Review
+tags:
+  - API
+  - Book
+  - O'Reilly Media
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449358068/cat.gif" width="180" height="236" />The API are now becoming more used every day. Today every major website provides it's own set of API and often the company websites and services are chosen (or not chosen) based on the availability of API and their design.
 
