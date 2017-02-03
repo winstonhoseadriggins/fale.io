@@ -1,8 +1,12 @@
 ---
-date: "2013-05-21T09:00:19+02:00"
-tags: [ "Book", "Maker Media", "Make" ]
-categories: [ "Review" ]
-title: "Zero to Maker: Learn (Just Enough) to Make (Just About) Anything by David Lang (Maker Media)"
+date: 2013-05-21
+title: Zero to Maker: Learn (Just Enough) to Make (Just About) Anything by David Lang (Maker Media)
+categories:
+  - Review
+tags:
+  - Book
+  - Maker Media
+  - Make
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449356439/cat.gif" width="180" height="270" />When I opened this book I was impressed on the image/text ratio. Being a Maker Media product, I thought it was somehow similar to the Make magazine. I was very wrong: in the whole book there are less then 10 images/photos.
 
