@@ -1,8 +1,14 @@
 ---
-date: "2013-04-16T09:00:15+02:00"
-tags: [ "Book", "Elsevier", "Syngress" ]
-categories: [ "Security", "Web", "Review" ]
-title: "Hacking Web Apps by Mike Shema (Elsevier/Syngress)"
+date: 2013-04-16
+title: Hacking Web Apps by Mike Shema (Elsevier/Syngress)
+categories:
+  - Review
+  - Security
+  - Web
+tags:
+  - Book
+  - Elsevier
+  - Syngress
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781597499569/cat.gif" width="180" height="222" />Have you ever thought that the website you are developing or using is secure? Well, this book will make you change your opinion. This book will change your idea of security and therefor you'll start to see anything as "probably having some security glitch".
 
