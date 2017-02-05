@@ -1,8 +1,14 @@
 ---
-date: "2013-04-09T09:00:15+02:00"
-tags: [ "Book", "Logs", "Elsevier", "Syngress" ]
-categories: [ "Security", "Review" ]
-title: "Logging and Log Management by Anton Chuvakin, Kevin Schmidt, Chris Phillips (Elsevier/Syngress)"
+date: 2013-04-09
+title: Logging and Log Management by Anton Chuvakin, Kevin Schmidt, Chris Phillips (Elsevier/Syngress)
+categories:
+  - Review
+  - Security
+tags:
+  - Book
+  - Elsevier
+  - Logs
+  - Syngress
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781597496360/cat.gif" width="180" height="220" />Logs are one of the most powerful tools in the sysadmin hands, and probably of all kind of IT roles.
 
