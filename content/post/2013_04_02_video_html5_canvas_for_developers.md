@@ -1,8 +1,13 @@
 ---
-date: "2013-04-02T09:00:15+02:00"
-tags: [ "Video", "HTML5", "O'Reilly Media" ]
-categories: [ "Web", "Review" ]
-title: "HTML5 Canvas for Developers by David Geary (O'Reilly Media)"
+date: 2013-04-02
+title: HTML5 Canvas for Developers by David Geary (O'Reilly Media)
+categories:
+  - Review
+  - Web
+tags:
+  - HTML5
+  - O'Reilly Media
+  - Video
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/0636920030768/cat.gif" width="180" height="278" />As the name suggests, this set of videos is for developers. HTML 4 and Javascript are often used without much explaination about the JS code it self but only about the HTML5 Canvas part.
 
