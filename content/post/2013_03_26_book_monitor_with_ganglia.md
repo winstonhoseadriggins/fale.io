@@ -1,8 +1,14 @@
 ---
-date: "2013-03-26T09:00:15+02:00"
-tags: [ "Book", "Ganglia", "Monitoring", "O'Reilly Media" ]
-categories: [ "Linux", "Review" ]
-title: "Monitoring with Ganglia by Matt Massie, Bernard Li, Brad Nicholes, Vladimir Vuksan, Robert Alexander, Jeff Buchbinder, Frederiko Costa, Alex Dean, Dave Josephsen, Peter Phaal, Daniel Pocock (O'Reilly Media)"
+date: 2013-03-26
+title: Monitoring with Ganglia by Matt Massie, Bernard Li, Brad Nicholes, Vladimir Vuksan, Robert Alexander, Jeff Buchbinder, Frederiko Costa, Alex Dean, Dave Josephsen, Peter Phaal, Daniel Pocock (O'Reilly Media)
+categories:
+  - Linux
+  - Review
+tags:
+  - Book
+  - Ganglia
+  - Monitoring
+  - O'Reilly Media
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781449329709/cat.gif" width="180" height="236" />Ganglia is the most robust and scalable tool for performance monitor I've tried or heard of.
 
