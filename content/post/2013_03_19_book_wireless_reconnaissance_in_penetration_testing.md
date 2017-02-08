@@ -1,8 +1,15 @@
 ---
-date: "2013-03-19T09:00:15+02:00"
-tags: [ "Book", "Wireless", "Penetration Testing", "Elsevier", "Syngress" ]
-categories: [ "Security", "Review" ]
-title: "Wireless Reconnaissance in Penetration Testing by Matthew Neely, Alex Hamerstone, Chris Sanyk (Elsevier/Syngress)"
+date: 2013-03-19
+title: Wireless Reconnaissance in Penetration Testing by Matthew Neely, Alex Hamerstone, Chris Sanyk (Elsevier/Syngress)
+categories:
+  - Security
+  - Review
+tags:
+  - Book
+  - Wireless
+  - Penetration Testing
+  - Elsevier
+  - Syngress
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781597497329/cat.gif" width="180" height="221" />When someone says the word "wireless", 99.9% of the audience thinks at the Wireless Networking Technologies (802.11 family). Very few think to the Bluetooth. Even fewer people think to all the other technologies that use wireless technology to work, such as cordless phone, guard radios, headsets, wireless camera etc. This book embrace the last point of view.
 
