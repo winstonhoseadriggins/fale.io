@@ -1,8 +1,14 @@
 ---
-date: "2013-03-12T09:00:15+02:00"
-tags: [ "Book", "Penetration testing", "Metasploit", "No Starch Press" ]
-categories: [ "Security", "Review" ]
-title: "Metasploit by Mati Aharoni, Devon Kearns, Jim O'Gorman, David Kennedy (No Starch Press)"
+date: 2013-03-12
+title: Metasploit by Mati Aharoni, Devon Kearns, Jim O'Gorman, David Kennedy (No Starch Press)
+categories:
+  - Review
+  - Security
+tags:
+  - Book
+  - Penetration testing
+  - Metasploit
+  - No Starch Press
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9781593272883/cat.gif" width="180" height="238" />Metasploit is the most common and complete framework for testing security. Metasploit is an entire suite of tools and methodologies designed for testing the security of computers and networks.
 
