@@ -1,8 +1,13 @@
 ---
-date: "2013-03-05T09:00:15+02:00"
-tags: [ "Book", "CompTIA", "Certification", "Microsoft Press" ]
-categories: [ "Review" ]
-title: "CompTIA A+ Rapid Review (Exam 220-801 and Exam 220-802) by Darril Gibson (Microsoft Press)"
+date: 2013-03-05
+title: CompTIA A+ Rapid Review (Exam 220-801 and Exam 220-802) by Darril Gibson (Microsoft Press)
+categories:
+  - Review
+tags:
+  - Book
+  - CompTIA
+  - Certification
+  - Microsoft Press
 ---
 <img class="alignleft" alt="" src="http://akamaicovers.oreilly.com/images/9780735666825/cat.gif" width="180" height="278" />After Microsoft's [CompTIA A+ Training Kit</a>, here I am reviewing the Microsoft's A+ Rapid Review. This book is really similar to the book <a href="http://fabiolocati.com/2013/01/comptia-security-rapid-review-exam-sy0-301-by-michael-gregg-microsoft-press/">CompTIA Security+ Rapid Review](http://fabiolocati.com/2013/01/comptia-a-training-kit-exam-220-801-and-exam-220-802-by-darril-gibson-microsoft-press/) (this too by Microsoft Press).
 
