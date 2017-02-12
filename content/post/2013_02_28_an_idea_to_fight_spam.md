@@ -1,8 +1,12 @@
 ---
-date: "2013-02-28T15:30:30+02:00"
-title: "An idea to fight spam"
-categories: [ "Web" ]
-tags: [ "Idea", "Spam", "Mails" ]
+date: 2013-02-28
+title: An idea to fight spam
+categories:
+  - Web
+tags:
+  - Idea
+  - Mails
+  - Spam
 ---
 <img class="alignleft" alt="" src="http://pagliaro-udine.blogautore.repubblica.it/files/2012/12/spam.jpeg" width="180" height="180" />
 Today I would like to give you an idea on how to implement a spam system that can reduce some kind of spam.
