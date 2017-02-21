@@ -1,5 +1,5 @@
 ---
-date: 2017-02-23
+date: 2017-03-01
 title: Ansible Inventories
 aggregators:
   - Fedora
