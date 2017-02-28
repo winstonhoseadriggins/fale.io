@@ -1,6 +1,6 @@
 ---
 date: 2013-05-21
-title: Zero to Maker: Learn (Just Enough) to Make (Just About) Anything by David Lang (Maker Media)
+title: 'Zero to Maker: Learn (Just Enough) to Make (Just About) Anything by David Lang (Maker Media)'
 categories:
   - Review
 tags:
