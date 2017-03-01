@@ -88,7 +88,7 @@ Ansible Patterns allow us to also do operations between two different groups, so
 
 You can also refine your selection, so for instance you could be using
 
-```
+```none
 loadbalancers:frontend:&US:!prod
 ```
 
@@ -98,7 +98,7 @@ This allows a pretty big level of detail, as you can see, in fact in the end you
 
 As you may immagine, you can also mix patterns with one and two parameters like:
 
-```
+```none
 *.example.com:frontend:&US:!prod
 ```
 
@@ -108,7 +108,7 @@ In this case, Ansible is going to run the Playbook on all machines that appear u
 Sometimes simple patterns are not enough, and you want to leverage the power of Regular Expressions.
 This is possible in Ansible and you can do it specifying a `~` at the begin of the string:
 
-```
+```none
 ~(ws|db).*\.example\.com
 ```
 
@@ -120,8 +120,8 @@ Sometimes the problem is that we want to create some Playbook that are generic a
 In Ansible, you can pass variables instead of explicit group names.
 So, if we want to create a Playbook that does a specific action on all machines that are hosting a specific application in a specific environment, we can simply write:
 
-```
-'{{application}}:&{{environment}}'
+```none
+'{{ application }}:&{{ environment }}'
 ```
 
 Now, setting the proper values for `application` and `environment`, we can run this Playbook on any applications and environments.
