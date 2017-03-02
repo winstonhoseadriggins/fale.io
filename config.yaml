@@ -14,7 +14,7 @@ params:
   GitHubUser: fale
   SidebarRecentLimit: 5
   LanguageCode: en
-  Locale: en_GB
+  Locale: en_US
   Subtitle: Fabio Alessandro (Fale) Locati's blog
   Copyright: Fabio Alessandro Locati
   LaunchYear: 2011
