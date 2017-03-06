@@ -5,6 +5,7 @@ isbn: 9781786464231
 length: 266
 author: Fabio Alessandro Locati
 image: publication/learning_ansible.jpg
+publisher: Packt Publishing Limited
 aggregators:
   - Fedora
   - KDE

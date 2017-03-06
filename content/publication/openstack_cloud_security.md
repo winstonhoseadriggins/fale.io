@@ -5,6 +5,7 @@ isbn: 9781782170983
 length: 160
 author: Fabio Alessandro Locati
 image: publication/openstack_cloud_security.jpg
+publisher: Packt Publishing Limited
 aggregators:
   - Fedora
   - KDE

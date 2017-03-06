@@ -1,0 +1,14 @@
+<article class="well" style='overflow: hidden;'>
+    <div style='width: 25%; float: left;'>
+        <img src='/img/{{ .Params.Image }}' width='100%' />
+    </div>
+    <div style='width: 70%; float: right;'>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p>
+            <i class="fa fa-clock-o"></i> Published on {{ $.Date.Format "January 2, 2006" }}<br />
+            <i class="fa fa-book"></i> Published by {{ .Params.Publisher }}
+        </p>
+        <!-- <img class="img-responsive" src="http://placehold.it/710x230" alt=""> -->
+        <a class="btn btn-primary" href="{{ .Permalink }}">Read More <i class="fa fa-chevron-right"></i></a>
+    <div>
+</article>
