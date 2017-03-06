@@ -50,7 +50,7 @@ menu:
   top:
     - name: About
       url: /about
-    - name: Public Speaking
-      url: /public_speaking
     - name: Publications
       url: /publication
+    - name: Talks
+      url: /talk
