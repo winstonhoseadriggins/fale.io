@@ -12,7 +12,6 @@ resellers:
   - name: Amazon
     url: https://www.amazon.com/dp/B00YSILXLK
 aggregators:
-aggregators:
   - Fedora
   - KDE
 categories:
