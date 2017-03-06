@@ -6,6 +6,7 @@ length: 160
 author: Fabio Alessandro Locati
 image: publication/openstack_cloud_security.jpg
 publisher: Packt Publishing Limited
+publisher_url: https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security
 aggregators:
   - Fedora
   - KDE

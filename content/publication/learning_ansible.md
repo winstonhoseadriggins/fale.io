@@ -6,6 +6,7 @@ length: 266
 author: Fabio Alessandro Locati
 image: publication/learning_ansible.jpg
 publisher: Packt Publishing Limited
+publisher_url: https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition
 aggregators:
   - Fedora
   - KDE
