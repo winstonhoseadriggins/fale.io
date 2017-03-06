@@ -4,14 +4,13 @@ title: Learning Ansible 2 - Second Edition
 isbn: 9781786464231
 length: 266
 author: Fabio Alessandro Locati
-params:
-  image: publication/learning_ansible.jpg
-  publisher: Packt Publishing Limited
-  resellers:
-    - name: Packt
-      url: https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition
-    - name: Amazon
-      url: https://www.amazon.com/dp/B01HY3TC3G
+image: publication/learning_ansible.jpg
+publisher: Packt Publishing Limited
+resellers:
+  - name: Packt
+    url: https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition
+  - name: Amazon
+    url: https://www.amazon.com/dp/B01HY3TC3G
 aggregators:
   - Fedora
   - KDE
