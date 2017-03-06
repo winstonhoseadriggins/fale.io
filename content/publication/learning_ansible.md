@@ -4,6 +4,7 @@ title: Learning Ansible 2 - Second Edition
 isbn: 9781786464231
 length: 266
 author: Fabio Alessandro Locati
+image: publication/learning_ansible.jpg
 aggregators:
   - Fedora
   - KDE

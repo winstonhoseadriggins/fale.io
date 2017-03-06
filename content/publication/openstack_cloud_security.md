@@ -4,6 +4,7 @@ title: OpenStack Cloud Security
 isbn: 9781782170983
 length: 160
 author: Fabio Alessandro Locati
+image: publication/openstack_cloud_security.jpg
 aggregators:
   - Fedora
   - KDE
