@@ -1,12 +1,17 @@
 ---
-date: 2015-07-31
+date: 2015-07-28
 title: OpenStack Cloud Security
 isbn: 9781782170983
 length: 160
 author: Fabio Alessandro Locati
 image: publication/openstack_cloud_security.jpg
 publisher: Packt Publishing Limited
-publisher_url: https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security
+resellers:
+  - name: Packt
+    url: https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security
+  - name: Amazon
+    url: https://www.amazon.com/dp/B00YSILXLK
+aggregators:
 aggregators:
   - Fedora
   - KDE

@@ -10,5 +10,8 @@
         </p>
         <!-- <img class="img-responsive" src="http://placehold.it/710x230" alt=""> -->
         <a class="btn btn-primary" href="{{ .Permalink }}">Read More <i class="fa fa-chevron-right"></i></a>
+        {{ range .Params.Resellers }}
+            <a class="btn btn-primary" href="{{ .url }}">Buy it on {{ .name }} <i class="fa fa-chevron-right"></i></a>
+        {{ end }}
     <div>
 </article>
