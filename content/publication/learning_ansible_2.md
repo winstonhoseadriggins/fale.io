@@ -17,7 +17,6 @@ aggregators:
 categories:
   - Ansible
 ---
-
 Ansible is an open source automation platform that assists organizations with tasks such as configuration management, application deployment, orchestration, and task automation.
 With Ansible, even complex tasks can be handled easier than before.
 

@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+<div class="row">
+    <div class="col-lg-8">
+
+        <article class="single well" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
+            <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+            <meta itemprop="headline" content="{{ .Title }}">
+            <meta itemprop="description" content="{{ .Summary }}">
+            <meta itemprop="url" content="{{ .Permalink }}">
+            <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
+                <meta itemprop="width" content="800">
+                <meta itemprop="height" content="800">
+            </div>
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                    <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
+                    <meta itemprop="width" content="100">
+                    <meta itemprop="height" content="100">
+                </div>
+                <meta itemprop="name" content="{{ .Site.Title }}">
+            </div>
+            <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <meta itemprop="name" content="{{ .Site.Params.Author }}">
+            </div>
+            <header class="article-header">
+                <h1>{{ .Title }}</h1>
+                {{ if not .Date.IsZero }}
+                <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa fa-clock-o"></i> Published on {{ .Date.Format "January 2, 2006" }}</time><br />
+                {{ end }}
+                <i class="fa fa-book"></i> Published by {{ .Params.Publisher }}
+                {{ if .Params.categories }}
+                <div class="section">
+                    <i class="fa fa-folder-o"></i> {{ range $i, $e := sort .Params.categories }}{{if $i}}, {{end}}<a href="{{ $.Site.BaseURL}}/categories/{{ $e | urlize }}" class="tag">{{ $e }}</a>{{ end }}
+                </div>
+                {{ end }}
+                {{ if .Params.tags }}
+                <div class="section">
+                    <i class="fa fa-tag"></i> {{ range $i, $e := sort .Params.tags }}{{if $i}}, {{end}}<a href="{{ $.Site.BaseURL}}/tags/{{ $e | urlize }}" class="tag">{{ $e }}</a>{{ end }}
+                </div>
+                {{ end }}
+            </header>
+
+            <!-- <img class="img-responsive" src="http://placehold.it/710x230" alt=""> -->
+            <img src='/img/{{ .Params.Image }}' style='width: 25%; float: left; margin: 5px 15px 5px 0;'/>
+            {{ .Content }}
+
+            <aside>
+            {{ range .Params.Resellers }}
+                <a class="btn btn-primary" href="{{ .url }}">Buy it on {{ .name }} <i class="fa fa-chevron-right"></i></a>
+            {{ end }}
+            </aside>
+        </article>
+
+    </div>
+    {{ partial "sidebar.html" . }}
+</div>
+{{ partial "footer.html" . }}
