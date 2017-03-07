@@ -14,5 +14,5 @@ Since he is always looking for better technologies, he also tries new technologi
 Some of the things Fabio evaluates about every technology are the security, the ethical, and functional consequences of it.
 
 Often he gives talks about his work, the projects he helps in his spare time, IT ethics, and his vision of IT and security worlds.
-He is the author of the books [Learning Anisble 2](https://www.packtpub.com/networking-and-servers/learning-ansible-2-second-edition) and [OpenStack Cloud Security](https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-security/).
+He is the author of the books [Learning Anisble 2](/publication/learning_ansible_2/) and [OpenStack Cloud Security](/publication/openstack_cloud_security/).
 In the spare time he helps out the Fedora Project, Ansible, Wikimedia, and Open Street Map.
