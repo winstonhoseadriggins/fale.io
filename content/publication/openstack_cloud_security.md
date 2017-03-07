@@ -15,8 +15,9 @@ aggregators:
   - Fedora
   - KDE
 categories:
-  - OpenStack
   - Security
+tags:
+  - OpenStack
 ---
 
 OpenStack is a system that controls large pools of computing and networking resources, along with cloud storage, allowing its users to provision resources through a user-friendly interface.

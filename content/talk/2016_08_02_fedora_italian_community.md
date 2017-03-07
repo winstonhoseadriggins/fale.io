@@ -17,6 +17,6 @@ artifacts:
     url: https://www.youtube.com/watch?v=dFLyJIz1qNw
   - name: slides
     url: https://fale.fedorapeople.org/slides/2016_08_02_flock_fedora_italian_comunity.pdf
-tags:
-  - fedora
+categories:
+  - Fedora
 ---

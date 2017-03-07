@@ -15,6 +15,6 @@ source_url: http://www.smau.it/milano16/schedules/workshop-su-come-automatizzare
 artifacts:
   - name: slides
     url: https://slides.fale.io/20161025-en-ansible-ws.pdf
-tags:
+categories:
   - ansible
 ---

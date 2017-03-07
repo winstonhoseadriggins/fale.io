@@ -15,7 +15,8 @@ source_url: http://www.smau.it/milano16/schedules/quando-e-perche-rilasciare-cod
 artifacts:
   - name: slides
     url: https://slides.fale.io/20161027-en-floss_economy.pdf
+categories:
+  - FLOSS
 tags:
-  - floss
   - economy
 ---

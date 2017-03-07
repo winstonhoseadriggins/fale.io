@@ -20,6 +20,6 @@ source_url: http://brigx.it/evento/linuxday2016-brianza
 artifacts:
   - name: slides
     url: https://slides.fale.io/20161022-it-linux.pdf
-tags:
+categories:
   - linux
 ---

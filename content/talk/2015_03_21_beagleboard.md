@@ -12,9 +12,10 @@ type: talk
 length: 45
 title: Experiment with the BeagleBoard
 source_url: https://viglug.org/docs/2015_elettronica_libera.pdf
+categories:
+  - Linux
+  - FLOSS
 tags:
   - Open Hardware
   - BleagleBoard
-  - Linux
-  - FLOSS
 ---

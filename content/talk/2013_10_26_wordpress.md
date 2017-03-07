@@ -15,9 +15,7 @@ source_url: https://viglug.org/docs/2013_linux_day.pdf
 artifacts:
   - name: video
     url: https://www.youtube.com/watch?v=S8grw0WX-mw
-tags:
- - Web
- - PHP
- - WordPress
- - Blog
+categories:
+  - FLOSS
+  - Web
 ---
