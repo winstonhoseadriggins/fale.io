@@ -7,3 +7,4 @@ git submodule update
 ~/go/bin/hugo
 rm -rf ~/public_html/fale.io
 cp -r ~/git/fale.io/public ~/public_html/fale.io
+ln -s ~/public_html/stuff ~/public_html/fale.io/stuff
