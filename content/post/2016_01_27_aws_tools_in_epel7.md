@@ -9,10 +9,6 @@ categories:
   - Enterprise Linux
   - CLI
   - AWS
-tags:
-  - EPEL
-  - RHEL
-  - CentOS
 ---
 
 A couple of weeks ago, I've announced the [availability of AWS tools for Fedora]({{< ref "post/2016_01_16_aws_tools_in_fedora.md" >}}).
