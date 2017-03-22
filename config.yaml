@@ -6,6 +6,7 @@ title: Fale's blog
 disqusShortname: fabiolocati
 theme: bootstrap2hugo
 googleAnalytics: UA-62427039-3
+preserveTaxonomyNames: True
 permalinks:
   post: /blog/:year/:month/:day/:title/
 params:
