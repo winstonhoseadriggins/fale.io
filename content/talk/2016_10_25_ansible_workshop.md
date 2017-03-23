@@ -16,5 +16,5 @@ artifacts:
   - name: slides
     url: https://slides.fale.io/20161025-en-ansible-ws.pdf
 categories:
-  - ansible
+  - Ansible
 ---
