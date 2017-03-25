@@ -15,6 +15,9 @@ params:
   GitHubUser: fale
   SidebarRecentLimit: 5
   LanguageCode: en
+  License:
+    name: CC-BY-SA
+    url: https://creativecommons.org/licenses/by-sa/4.0/
   Locale: en_US
   Subtitle: Fale's blog
   Copyright: Fabio Alessandro Locati
