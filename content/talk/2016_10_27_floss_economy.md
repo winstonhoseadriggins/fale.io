@@ -18,5 +18,5 @@ artifacts:
 categories:
   - FLOSS
 tags:
-  - economy
+  - Economy
 ---

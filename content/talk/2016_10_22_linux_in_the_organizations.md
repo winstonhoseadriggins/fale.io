@@ -21,5 +21,5 @@ artifacts:
   - name: slides
     url: https://slides.fale.io/20161022-it-linux.pdf
 categories:
-  - linux
+  - Linux
 ---
