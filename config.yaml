@@ -1,4 +1,4 @@
-baseurl: http://fale.io
+baseurl: https://fale.io
 contentdir: content
 publishdir: public
 languageCode: en
