@@ -2,11 +2,11 @@
 date: 2012-12-28
 title: "Strata Conference New York + Hadoop World 2012: Complete Video Compilation by O'Reilly Media, Inc."
 tags:
-  - Database
   - Hadoop
   - O'Reilly Media
   - Video
 categories:
+  - Database
   - Review
   - Big Data
 ---
