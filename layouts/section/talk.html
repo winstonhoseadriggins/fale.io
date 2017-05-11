@@ -35,7 +35,7 @@
             {{ range .Data.Pages }}
                 <li>{{ .Date.Format "2006" }} - {{ .Params.Event }} ({{ .Params.Location.City }}, {{ .Params.Location.Country }}) - {{ .Title }}
                 {{ if .Params.Artifacts }}
-                    ({{ range $i, $a := .Params.artifacts }}{{ if gt $i 0 }}, {{ end }}<a href="{{ .source_url }}">{{ .name }}</a>{{ end }})
+                    ({{ range $i, $a := .Params.artifacts }}{{ if gt $i 0 }}, {{ end }}<a href="{{ .url }}">{{ .name }}</a>{{ end }})
                 {{ end }}
                 </li>
             {{ end }}
