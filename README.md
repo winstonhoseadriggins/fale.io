@@ -11,5 +11,5 @@ The content of this repository is published under the [CC-BY-SA 4.0](https://cre
 To extract the needed languages for hightlight.js, run:
 
 ```
-grep -r '```\|~~~' content | awk -F':' '{print $2}' | cut -c 4- | grep -v '^$' | grep -v 'none' | sort | uniq
+grep -r '~~~' content | awk -F':' '{print $2}' | cut -c 4- | grep -v '^$' | grep -v 'none' | sort | uniq
 ```
