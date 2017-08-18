@@ -21,7 +21,7 @@ I have created 3 files to setup the environment, install etcd and cluster the ma
 
 The first file is the `Vagrantfile`, and looks like this:
 
-```ruby
+~~~ruby
 N = 3
 Vagrant::configure("2") do |config|
     (0..N-1).each do |machine_id|
@@ -38,7 +38,7 @@ Vagrant::configure("2") do |config|
         end
     end
 end
-```
+~~~
 
 As you can notice, in the first line `N` is declared.
 `N` is the number of nodes of the cluster.
@@ -48,7 +48,7 @@ Since I have used the `centos/7` image, CentOS 7 will be installed, and to to th
 
 The second file `setup.yaml` is an Ansible Playbook to actually install the etcd daemon.
 
-```yaml
+~~~yaml
 ---
 - name: Configure properly etcd
   hosts: all
@@ -69,14 +69,14 @@ The second file `setup.yaml` is an Ansible Playbook to actually install the etcd
         state: started
         enabled: True
       become: True
-```
+~~~
 
 As you can notice, I install etcd from yum.
 This allowed me to simplify the process and be able to keep it updated using simply yum.
 
 The third file (`etcd.conf`), is a template for the `/etc/etcd/etcd.conf` file.
 
-```django
+~~~django
 ETCD_NAME={{ ansible_hostname }}
 ETCD_INITIAL_ADVERTISE_PEER_URLS=http://{{ ansible_eth1.ipv4.address }}:2380
 ETCD_LISTEN_PEER_URLS=http://{{ ansible_eth1.ipv4.address }}:2380
@@ -84,7 +84,7 @@ ETCD_LISTEN_CLIENT_URLS=http://{{ ansible_eth1.ipv4.address }}:2379
 ETCD_ADVERTISE_CLIENT_URLS=http://{{ ansible_eth1.ipv4.address }}:2379
 ETCD_INITIAL_CLUSTER_TOKEN=etcd-vagrant-test
 ETCD_INITIAL_CLUSTER="{% for host in groups['all'] %}{{ hostvars[host]['ansible_hostname'] }}=http://{{ hostvars[host]['ansible_eth1']['ipv4']['address'] }}:2380,{% endfor %}"
-```
+~~~
 
 This template will generate a proper configuration file with all needed variables setted up properly, so that when etcd will be run (last step of the Ansible Playbook) the nodes will recognise each other and start the election to determine the leader.
 

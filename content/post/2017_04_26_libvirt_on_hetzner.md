@@ -51,22 +51,22 @@ My goal was to create 3 different networks:
 The first step is ensure that the kernel rp_filter will not block the packages during the routing process.
 To do so, you need to put in the file `/etc/sysctl.d/98-rp-filter.conf`:
 
-```
+~~~
 net.ipv4.conf.default.rp_filter = 0
 net.ipv4.conf.all.rp_filter = 0
 net.bridge.bridge-nf-call-ip6tables = 0
 net.bridge.bridge-nf-call-iptables = 0
 net.bridge.bridge-nf-call-arptables = 0
-```
+~~~
 
 In case you also want to be able to use nested-virtualisation acceleration, you need to put in `/etc/modprobe.d/kvm_intel.conf`:
 
-```
+~~~
 options kvm-intel nested=1
 options kvm-intel enable_shadow_vmcs=1
 options kvm-intel enable_apicv=1
 options kvm-intel ept=1
-```
+~~~
 
 Even if it's not mandatory, I always suggest to upgrade all your packages.
 To do so, you can run:
@@ -82,14 +82,14 @@ To configure the three networks, we are going to use `virsh`, using xml files th
 ## Network creation
 The file that describes the internal network is going to be called `/tmp/internal.xml` and contains:
 
-```xml
+~~~xml
 <network>
   <name>internal</name>
   <bridge name="br-internal" stp="on" delay="0"/>
   <ip address="10.0.0.1" netmask="255.255.255.0">
   </ip>
 </network>
-```
+~~~
 
 As you can see we are just declaring an IP range (10.0.0.1/24), the bridge name (br-internal) and the network name (internal).
 We can now create the network:
@@ -100,7 +100,7 @@ We can now create the network:
 
 The second network is in the file `/tmp/public.xml` and contains the following:
 
-```xml
+~~~xml
 <network>
   <name>public</name>
   <bridge name="br-public" />
@@ -110,7 +110,7 @@ The second network is in the file `/tmp/public.xml` and contains the following:
   <ip family="ipv6" address="2a01:4f8:10a:390a::1" prefix="64">
   </ip>
 </network>
-```
+~~~
 
 This is very similar to the previous one, with a couple of differences:
 
@@ -126,7 +126,7 @@ We can now create the network:
 
 The third file, called `/tmp/private.xml` contains:
 
-```xml
+~~~xml
 <network>
   <name>private</name>
   <bridge name="br-private" stp="on" delay="0"/>
@@ -138,7 +138,7 @@ The third file, called `/tmp/private.xml` contains:
   <ip address="10.0.1.1" netmask="255.255.255.0">
   </ip>
 </network>
-```
+~~~
 
 This is very similar to the internal one, with the addition of the forward section, where we declare the ability of forwarding packages toward the internet via NAT.
 
@@ -150,14 +150,14 @@ We can now create the network:
 
 If you now run `virsh net-list` you can now see the networks:
 
-```
+~~~
  Name                 State      Autostart     Persistent
 ----------------------------------------------------------
  defaul               active     yes           yes
  internal             active     yes           yes
  public               active     yes           yes
  private              active     yes           yes
-```
+~~~
 
 In case you want to remove the default one (mainly for cleaness reasons):
 

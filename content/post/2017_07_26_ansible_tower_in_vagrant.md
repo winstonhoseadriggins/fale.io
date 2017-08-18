@@ -18,7 +18,7 @@ In the last few weeks I created a Vagrant script to actually automate it.
 
 As this is a single host installation (which is usually more than enough for the majority of tests I do, the Vagrant file is very easy:
 
-```ruby
+~~~ruby
 Vagrant.configure(2) do |config|
 
     # Set machine size
@@ -38,7 +38,7 @@ Vagrant.configure(2) do |config|
     end
 
 end
-```
+~~~
 
 I basically create a 2Gb of RAM machine leveraging libvirt and run an Ansible Playbook on it.
 The reason I created a 2Gb of RAM machine and I've not tried to shrink it further is because the Ansible Tower installation checks for 2Gb of RAM, and I wanted to create something easy.
@@ -47,7 +47,7 @@ I'm sure I could patch the installer to accept a 1Gb machine, but it's not worth
 In the Vagrant file we were calling an Ansible Playbook to install Ansible Tower.
 Here is the Ansible Playbooks:
 
-```yaml
+~~~yaml
 ---
 - hosts: all
   name: Install Ansible Tower
@@ -77,7 +77,7 @@ Here is the Ansible Playbooks:
       args:
         chdir: '/tmp/ansible-tower-setup-{{ version }}'
       become: True
-```
+~~~
 
 As you can see is a very straightforward Ansible Playbook which ensures that EPEL is enabled (since is required by Ansible Tower installer), then proceeds to set the hostname matching Vagrant hostname.
 After this Ansible Tower installer gets downloaded, uncompressed, the inventory file gets imported and finally the installer gets run.
@@ -85,7 +85,7 @@ After this Ansible Tower installer gets downloaded, uncompressed, the inventory 
 To make the process working we do need a valid Ansible Inventory file.
 I use the following one:
 
-```ini
+~~~
 [tower]
 localhost ansible_connection=local
 
@@ -102,15 +102,15 @@ pg_database='awx'
 pg_username='awx'
 pg_password='tower'
 
-rabbitmq_port=5672
-rabbitmq_vhost=tower
-rabbitmq_username=tower
+rabbitmq_port='5672'
+rabbitmq_vhost='tower'
+rabbitmq_username='tower'
 rabbitmq_password='tower'
-rabbitmq_cookie=cookiemonster
+rabbitmq_cookie='cookiemonster'
 
 # Needs to be true for fqdns and ip addresses
 rabbitmq_use_long_name=false
-```
+~~~
 
 As you can immagine from the Ansible Inventory file, the user `admin` will end up having the password `admin`.
 
