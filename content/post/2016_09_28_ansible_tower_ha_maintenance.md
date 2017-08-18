@@ -10,6 +10,8 @@ tags:
   - Ansible Tower
 ---
 
+***IMPORTANT NOTICE***: This article deals with Ansible Tower <= 3.0. If you are looking for information around Ansible Tower >= 3.1, please look my [newer article](/blog/2017/08/18/ansible-tower-3.1-high-availability-maintenance/) on the topic.
+
 In the last few months I've setted up multiple times Ansible Tower, but I've noticed that there is not much documentation on how to perform basic maintenance on Ansible Tower High Availability setup, so I decided to write an article about it.
 
 Ansible Tower High Availability setup (also known as Ansible Tower Cluster) is composed by one Primary Tower (Active), one or more Secondary Tower (Passive), and a PostgreSQL 9.4+ database.
@@ -50,3 +52,5 @@ tower-manage update_instance --primary --hostname HOSTHERE
 ~~~
 
 The Primary machine will automatically be demoted to Secondary when a new machine becomes Primary.
+
+***IMPORTANT NOTICE***: This article deals with Ansible Tower <= 3.0. If you are looking for information around Ansible Tower >= 3.1, please look my [newer article](/blog/2017/08/18/ansible-tower-3.1-high-availability-maintenance/) on the topic.
