@@ -67,6 +67,7 @@ Here is the Ansible Playbooks:
         url: 'http://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-{{ version }}.tar.gz'
         dest: '/tmp/ansible-tower-setup-{{ version }}.tar.gz'
     - unarchive:
+        remote_src: True
         src: '/tmp/ansible-tower-setup-{{ version }}.tar.gz'
         dest: /tmp
     - copy:
