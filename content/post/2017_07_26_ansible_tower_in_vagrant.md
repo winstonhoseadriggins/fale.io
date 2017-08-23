@@ -16,7 +16,7 @@ A lot of times during my job I found myself with the need of Ansible Tower testi
 
 In the last few weeks I created a Vagrant script to actually automate it.
 
-As this is a single host installation (which is usually more than enough for the majority of tests I do, the Vagrant file is very easy:
+As this is a single host installation, which is usually more than enough for the majority of tests I do, the Vagrant file is very easy:
 
 ~~~ruby
 Vagrant.configure(2) do |config|
