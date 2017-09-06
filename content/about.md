@@ -6,7 +6,7 @@ Fabio Alessandro Locati - commonly known as Fale - is a Senior Consultant at Red
 His main areas of expertise are Linux, automation, security, cloud technologies, databases, networking, and data centres.
 
 With more than 10 years of working experience in the field, he has experienced different IT roles, technologies, and languages.
-Fale has consulted for many different companies, starting from a one-man company to Fortune 500 companies such as Tech Data and Samsung.
+Fale has consulted for many different companies, starting from a one-man company to Fortune 500 companies.
 This has allowed him to consider various technologies from different points of view, helping him develop critical thinking and understand very quickly whether a particular technology is the right one for a specific project or not.
 
 Since he is always looking for better technologies, he also tries new technologies to see their advantages over the old ones and their maturity status.
